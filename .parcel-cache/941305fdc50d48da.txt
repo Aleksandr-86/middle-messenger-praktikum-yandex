@@ -29,7 +29,7 @@
 69C:\Users\Aleks\projects\chat-example\node_modules\ansi-black\index.js133074739293090415 0
 73C:\Users\Aleks\projects\chat-example\node_modules\moment\src\locale\ne.js133074739311014916 0
 114C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\utility-types\dist\aliases-and-guards.js133074739292382330 0
-47C:\Users\Aleks\projects\chat-example\.gitignore133074733686512608 0
+47C:\Users\Aleks\projects\chat-example\.gitignore133074781782323781 0
 110C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json133074739309050169 0
 72C:\Users\Aleks\projects\chat-example\node_modules\object-assign\index.js133074739291943485 0
 129C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-cli\node_modules\msgpackr-extract\src\.vs\src\v16\Browse.VC.db133074739297233089 0

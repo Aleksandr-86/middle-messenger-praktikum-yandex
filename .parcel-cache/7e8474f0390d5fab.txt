@@ -1,4 +1,4 @@
-10663
+10665
 72C:\Users\Aleks\projects\chat-example\node_modules\wordwrap\test\break.js133074739296145994 0
 116C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\utility-types\dist\functional-helpers.js133074739293399598 0
 69C:\Users\Aleks\projects\chat-example\node_modules\regex-not\README.md133074739293935202 0
@@ -13,7 +13,7 @@
 65C:\Users\Aleks\projects\chat-example\node_modules\xtend\.jshintrc133074739291863699 0
 118C:\Users\Aleks\projects\chat-example\node_modules\@parcel\package-manager\node_modules\@parcel\workers\lib\Profiler.js133074739301076388 0
 99C:\Users\Aleks\projects\chat-example\node_modules\split-string\node_modules\extend-shallow\index.js133074739294054883 0
-41C:\Users\Aleks\projects\chat-example\dist133074781349823569 1
+41C:\Users\Aleks\projects\chat-example\dist133074781444950153 1
 72C:\Users\Aleks\projects\chat-example\node_modules\moment\locale\en-in.js133074739307763635 0
 73C:\Users\Aleks\projects\chat-example\node_modules\handlebars-wax\index.js133074739293329777 0
 59C:\Users\Aleks\projects\chat-example\node_modules\ansi-blue133074739293728718 1
@@ -29,7 +29,7 @@
 69C:\Users\Aleks\projects\chat-example\node_modules\ansi-black\index.js133074739293090415 0
 73C:\Users\Aleks\projects\chat-example\node_modules\moment\src\locale\ne.js133074739311014916 0
 114C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\utility-types\dist\aliases-and-guards.js133074739292382330 0
-47C:\Users\Aleks\projects\chat-example\.gitignore133074733686512608 0
+47C:\Users\Aleks\projects\chat-example\.gitignore133074781782323781 0
 110C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json133074739309050169 0
 72C:\Users\Aleks\projects\chat-example\node_modules\object-assign\index.js133074739291943485 0
 129C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-cli\node_modules\msgpackr-extract\src\.vs\src\v16\Browse.VC.db133074739297233089 0
@@ -9498,6 +9498,7 @@
 133C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\caniuse-lite\data\features\css-marker-pseudo.js133074739308880638 0
 123C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\scope\selector.js133074739306945801 0
 119C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\common133074739307055510 1
+63C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js.map133074781444940186 0
 119C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\has.js133074739303594754 0
 119C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\not.js133074739305639296 0
 132C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js133074739305788888 0
@@ -10661,4 +10662,5 @@
 69C:\Users\Aleks\projects\chat-example\node_modules\.bin\remarkable.ps1133074739315746767 0
 63C:\Users\Aleks\projects\chat-example\node_modules\.bin\uglifyjs133074739315746767 0
 67C:\Users\Aleks\projects\chat-example\node_modules\.bin\uglifyjs.ps1133074739315746767 0
+59C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js133074781444920219 0
 52C:\Users\Aleks\projects\chat-example\dist\index.html133074781349789670 0
