@@ -13,7 +13,7 @@ dist-ssr
 *.local
 
 # Editor directories and files
-# .parcel-cache
+.parcel-cache
 .vscode/*
 !.vscode/extensions.json
 .idea

@@ -3,9 +3,9 @@
 116C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\utility-types\dist\functional-helpers.js133074739293399598 0
 69C:\Users\Aleks\projects\chat-example\node_modules\regex-not\README.md133074739293935202 0
 106C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\msgpackr-extract\src\extract.cpp133074739295148660 0
-67C:\Users\Aleks\projects\chat-example\node_modules\@msgpackr-extract133074739593751519 1
+67C:\Users\Aleks\projects\chat-example\node_modules\@msgpackr-extract133074743066727187 1
 98C:\Users\Aleks\projects\chat-example\node_modules\typeof-article\node_modules\kind-of\package.json133074739291175561 0
-49C:\Users\Aleks\projects\chat-example\package.json133074741095174934 0
+49C:\Users\Aleks\projects\chat-example\package.json133074779856038408 0
 78C:\Users\Aleks\projects\chat-example\node_modules\neo-async\applyEachSeries.js133074739297402633 0
 60C:\Users\Aleks\projects\chat-example\node_modules\set-getter133074739293638953 1
 102C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\tslib\tslib.html133074739292252656 0
@@ -61,7 +61,7 @@
 94C:\Users\Aleks\projects\chat-example\node_modules\to-regex\node_modules\extend-shallow\LICENSE133074739293110366 0
 114C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-dev-server\node_modules\chrome-trace-event\dist133074739295447862 1
 145C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.c133074739302248369 0
-46C:\Users\Aleks\projects\chat-example\index.hbs133074587590166140 0
+46C:\Users\Aleks\projects\chat-example\index.hbs133074774746918249 0
 96C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\msgpackr\unpack.d.ts133074739300116464 0
 93C:\Users\Aleks\projects\chat-example\node_modules\to-regex\node_modules\is-extendable\LICENSE133074739293120336 0
 66C:\Users\Aleks\projects\chat-example\node_modules\neo-async\all.js133074739291943485 0
@@ -99,7 +99,7 @@
 77C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\lib\index.js.map133074739299308624 0
 97C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\terser\dist133074739303774286 1
 76C:\Users\Aleks\projects\chat-example\node_modules\yaml\browser\dist\index.js133074739296155967 0
-54C:\Users\Aleks\projects\chat-example\package-lock.json133074741013356183 0
+54C:\Users\Aleks\projects\chat-example\package-lock.json133074743067445269 0
 109C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-cli\node_modules\msgpackr\rollup.config.js133074739297747034 0
 91C:\Users\Aleks\projects\chat-example\node_modules\object-copy\node_modules\kind-of\index.js133074739294054883 0
 126C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\caniuse-lite\data\features\prefers-color-scheme.js133074739313219038 0
@@ -113,7 +113,7 @@
 73C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\package.json133074739298216099 0
 167C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\bar.js133074739297896633 0
 67C:\Users\Aleks\projects\chat-example\node_modules\highlight.js\docs133074739310246982 1
-49C:\Users\Aleks\projects\chat-example\node_modules133074741012638092 1
+49C:\Users\Aleks\projects\chat-example\node_modules133074743066727187 1
 132C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\caniuse-lite\data\features\css-env-function.js133074739308391927 0
 122C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\caniuse-lite\data\features\canvas.js133074739305729055 0
 92C:\Users\Aleks\projects\chat-example\node_modules\static-extend\node_modules\define-property133074739293768613 1
@@ -204,7 +204,7 @@
 61C:\Users\Aleks\projects\chat-example\node_modules\ansi-styles133074739293718741 1
 60C:\Users\Aleks\projects\chat-example\node_modules\sprintf-js133074739298819935 1
 111C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-cli\node_modules\weak-lru-cache\package.json133074739296185892 0
-68C:\Users\Aleks\projects\chat-example\node_modules\.package-lock.json133074741013715231 0
+68C:\Users\Aleks\projects\chat-example\node_modules\.package-lock.json133074743067784657 0
 111C:\Users\Aleks\projects\chat-example\node_modules\snapdragon\node_modules\source-map\dist\source-map.min.js.map133074739299428318 0
 72C:\Users\Aleks\projects\chat-example\node_modules\is-accessor-descriptor133074739293678842 1
 136C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web\package.json133074739300226182 0
@@ -242,7 +242,7 @@
 62C:\Users\Aleks\projects\chat-example\node_modules\array-unique133074739293718741 1
 117C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\caniuse-lite\data\features\audiotracks.js133074739302378038 0
 85C:\Users\Aleks\projects\chat-example\node_modules\highlight.js\lib\languages\clean.js133074739307235032 0
-55C:\Users\Aleks\projects\chat-example\node_modules\@lmdb133074739593751519 1
+55C:\Users\Aleks\projects\chat-example\node_modules\@lmdb133074743066727187 1
 60C:\Users\Aleks\projects\chat-example\node_modules\snapdragon133074739294593441 1
 124C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133074739308282222 1
 116C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\@parcel\hash\parcel-hash.darwin-x64.node133074739299029388 0
