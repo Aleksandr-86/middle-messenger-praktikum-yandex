@@ -1,11 +1,11 @@
-10665
+10667
 72C:\Users\Aleks\projects\chat-example\node_modules\wordwrap\test\break.js133074739296145994 0
 116C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\utility-types\dist\functional-helpers.js133074739293399598 0
 69C:\Users\Aleks\projects\chat-example\node_modules\regex-not\README.md133074739293935202 0
 106C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\msgpackr-extract\src\extract.cpp133074739295148660 0
 67C:\Users\Aleks\projects\chat-example\node_modules\@msgpackr-extract133074743066727187 1
 98C:\Users\Aleks\projects\chat-example\node_modules\typeof-article\node_modules\kind-of\package.json133074739291175561 0
-49C:\Users\Aleks\projects\chat-example\package.json133074781282632348 0
+49C:\Users\Aleks\projects\chat-example\package.json133075239597191669 0
 78C:\Users\Aleks\projects\chat-example\node_modules\neo-async\applyEachSeries.js133074739297402633 0
 60C:\Users\Aleks\projects\chat-example\node_modules\set-getter133074739293638953 1
 102C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\tslib\tslib.html133074739292252656 0
@@ -13,7 +13,7 @@
 65C:\Users\Aleks\projects\chat-example\node_modules\xtend\.jshintrc133074739291863699 0
 118C:\Users\Aleks\projects\chat-example\node_modules\@parcel\package-manager\node_modules\@parcel\workers\lib\Profiler.js133074739301076388 0
 99C:\Users\Aleks\projects\chat-example\node_modules\split-string\node_modules\extend-shallow\index.js133074739294054883 0
-41C:\Users\Aleks\projects\chat-example\dist133074781444950153 1
+41C:\Users\Aleks\projects\chat-example\dist133075240800629705 1
 72C:\Users\Aleks\projects\chat-example\node_modules\moment\locale\en-in.js133074739307763635 0
 73C:\Users\Aleks\projects\chat-example\node_modules\handlebars-wax\index.js133074739293329777 0
 59C:\Users\Aleks\projects\chat-example\node_modules\ansi-blue133074739293728718 1
@@ -63,7 +63,7 @@
 94C:\Users\Aleks\projects\chat-example\node_modules\to-regex\node_modules\extend-shallow\LICENSE133074739293110366 0
 114C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-dev-server\node_modules\chrome-trace-event\dist133074739295447862 1
 145C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.c133074739302248369 0
-46C:\Users\Aleks\projects\chat-example\index.hbs133074774746918249 0
+46C:\Users\Aleks\projects\chat-example\index.hbs133075240678717648 0
 96C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\msgpackr\unpack.d.ts133074739300116464 0
 93C:\Users\Aleks\projects\chat-example\node_modules\to-regex\node_modules\is-extendable\LICENSE133074739293120336 0
 66C:\Users\Aleks\projects\chat-example\node_modules\neo-async\all.js133074739291943485 0
@@ -493,6 +493,7 @@
 130C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts133074739300966690 0
 77C:\Users\Aleks\projects\chat-example\node_modules\handlebars\types\index.d.ts133074739308641271 0
 56C:\Users\Aleks\projects\chat-example\node_modules\braces133074739294819543 1
+66C:\Users\Aleks\projects\chat-example\dist\chat-example.4fb646e1.js133075240556708565 0
 105C:\Users\Aleks\projects\chat-example\node_modules\object-copy\node_modules\is-accessor-descriptor\LICENSE133074739293150259 0
 109C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\terser\tools\props.html133074739295767019 0
 98C:\Users\Aleks\projects\chat-example\node_modules\class-utils\node_modules\define-property\LICENSE133074739293200125 0
@@ -4718,6 +4719,7 @@
 87C:\Users\Aleks\projects\chat-example\node_modules\highlight.js\lib\languages\inform7.js133074739308780894 0
 90C:\Users\Aleks\projects\chat-example\node_modules\highlight.js\lib\languages\javascript.js133074739308860692 0
 89C:\Users\Aleks\projects\chat-example\node_modules\highlight.js\lib\languages\jboss-cli.js133074739308870665 0
+70C:\Users\Aleks\projects\chat-example\dist\chat-example.4fb646e1.js.map133075240556728517 0
 77C:\Users\Aleks\projects\chat-example\node_modules\falsey\node_modules\kind-of133074739293778580 1
 84C:\Users\Aleks\projects\chat-example\node_modules\highlight.js\lib\languages\json.js133074739308870665 0
 107C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\node_modules\caniuse-lite\data\regions\PG.js133074739313119302 0
@@ -9498,7 +9500,7 @@
 133C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\caniuse-lite\data\features\css-marker-pseudo.js133074739308880638 0
 123C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\scope\selector.js133074739306945801 0
 119C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\common133074739307055510 1
-63C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js.map133074781444940186 0
+63C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js.map133075240568297820 0
 119C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\has.js133074739303594754 0
 119C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\not.js133074739305639296 0
 132C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js133074739305788888 0
@@ -10662,5 +10664,5 @@
 69C:\Users\Aleks\projects\chat-example\node_modules\.bin\remarkable.ps1133074739315746767 0
 63C:\Users\Aleks\projects\chat-example\node_modules\.bin\uglifyjs133074739315746767 0
 67C:\Users\Aleks\projects\chat-example\node_modules\.bin\uglifyjs.ps1133074739315746767 0
-59C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js133074781444920219 0
-52C:\Users\Aleks\projects\chat-example\dist\index.html133074781349789670 0
+59C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js133075240568277876 0
+52C:\Users\Aleks\projects\chat-example\dist\index.html133075240800619932 0
