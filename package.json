@@ -2,7 +2,7 @@
   "name": "chat-example",
   "version": "1.0.0",
   "description": "",
-  "source": "index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "parcel index.hbs",
     "build": "parcel build index.hbs"

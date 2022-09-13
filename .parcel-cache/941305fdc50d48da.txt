@@ -5,7 +5,7 @@
 106C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\msgpackr-extract\src\extract.cpp133074739295148660 0
 67C:\Users\Aleks\projects\chat-example\node_modules\@msgpackr-extract133074743066727187 1
 98C:\Users\Aleks\projects\chat-example\node_modules\typeof-article\node_modules\kind-of\package.json133074739291175561 0
-49C:\Users\Aleks\projects\chat-example\package.json133075239597191669 0
+49C:\Users\Aleks\projects\chat-example\package.json133075262821157157 0
 78C:\Users\Aleks\projects\chat-example\node_modules\neo-async\applyEachSeries.js133074739297402633 0
 60C:\Users\Aleks\projects\chat-example\node_modules\set-getter133074739293638953 1
 102C:\Users\Aleks\projects\chat-example\node_modules\@parcel\config-default\node_modules\tslib\tslib.html133074739292252656 0
@@ -13,7 +13,7 @@
 65C:\Users\Aleks\projects\chat-example\node_modules\xtend\.jshintrc133074739291863699 0
 118C:\Users\Aleks\projects\chat-example\node_modules\@parcel\package-manager\node_modules\@parcel\workers\lib\Profiler.js133074739301076388 0
 99C:\Users\Aleks\projects\chat-example\node_modules\split-string\node_modules\extend-shallow\index.js133074739294054883 0
-41C:\Users\Aleks\projects\chat-example\dist133075240679421630 1
+41C:\Users\Aleks\projects\chat-example\dist133075240800629705 1
 72C:\Users\Aleks\projects\chat-example\node_modules\moment\locale\en-in.js133074739307763635 0
 73C:\Users\Aleks\projects\chat-example\node_modules\handlebars-wax\index.js133074739293329777 0
 59C:\Users\Aleks\projects\chat-example\node_modules\ansi-blue133074739293728718 1
@@ -29,7 +29,7 @@
 69C:\Users\Aleks\projects\chat-example\node_modules\ansi-black\index.js133074739293090415 0
 73C:\Users\Aleks\projects\chat-example\node_modules\moment\src\locale\ne.js133074739311014916 0
 114C:\Users\Aleks\projects\chat-example\node_modules\@parcel\fs\node_modules\utility-types\dist\aliases-and-guards.js133074739292382330 0
-47C:\Users\Aleks\projects\chat-example\.gitignore133074781782323781 0
+47C:\Users\Aleks\projects\chat-example\.gitignore133075241173412854 0
 110C:\Users\Aleks\projects\chat-example\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json133074739309050169 0
 72C:\Users\Aleks\projects\chat-example\node_modules\object-assign\index.js133074739291943485 0
 129C:\Users\Aleks\projects\chat-example\node_modules\@parcel\reporter-cli\node_modules\msgpackr-extract\src\.vs\src\v16\Browse.VC.db133074739297233089 0
@@ -10665,4 +10665,4 @@
 63C:\Users\Aleks\projects\chat-example\node_modules\.bin\uglifyjs133074739315746767 0
 67C:\Users\Aleks\projects\chat-example\node_modules\.bin\uglifyjs.ps1133074739315746767 0
 59C:\Users\Aleks\projects\chat-example\dist\index.975ef6c8.js133075240568277876 0
-52C:\Users\Aleks\projects\chat-example\dist\index.html133075240679411671 0
+52C:\Users\Aleks\projects\chat-example\dist\index.html133075240800619932 0
