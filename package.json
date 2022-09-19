@@ -3,13 +3,12 @@
   "version": "0.0.1",
   "description": "simple chat",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "dev": "parcel index.hbs",
     "build": "parcel build index.hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aleks-Kar",
   "license": "ISC",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
