@@ -1,7 +1,7 @@
 {
-  "name": "chat-example",
-  "version": "1.0.0",
-  "description": "",
+  "name": "middle.messenger.praktikum.yandex",
+  "version": "0.0.1",
+  "description": "simple chat",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
