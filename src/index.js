@@ -1,4 +1,4 @@
-import { sum } from './modules/sum';
+import hbs from '@anikin/parcel-transformer-handlebars';
+import page404 from './pages/404.tmp';
 
-const root = document.querySelector('#root');
-root.textContent = sum(6, -1).toString();
+console.log(page404);
