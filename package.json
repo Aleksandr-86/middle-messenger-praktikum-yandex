@@ -4,11 +4,11 @@
   "description": "simple chat",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.hbs",
-    "build": "parcel build index.hbs"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
-  "author": "Aleksandr K.",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",

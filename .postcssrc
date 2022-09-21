@@ -1,3 +1,6 @@
-module.exports = {
-  plugins: [require("postcss-nested"), require("postcss-simple-vars")],
-};
+{
+  "plugins": {
+    "postcss-nested": true,
+    "postcss-simple-vars": true
+  }
+}
