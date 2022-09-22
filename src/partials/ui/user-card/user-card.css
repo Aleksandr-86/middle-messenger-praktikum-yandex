@@ -1,15 +1,68 @@
-/* @import '/src/styles/variables.css'; */
-
-/* @import url('../styles/variables.css'); */
-
-$size: 50px;
-
 .user-card {
-  color: $user-card-background;
-  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
 
-  &_mod {
-    text-decoration: underline;
-    font-size: $size;
+  width: 345px;
+  background: $user-card_background;
+  border-radius: 8px;
+
+  /* border: 1px solid red; */
+
+  &__avatar {
+    width: 50px;
+    height: 50px;
+    border: 2px solid $user-card-border-color-online;
+    border-radius: 50%;
+  }
+
+  &__user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+
+    /* background: yellow; */
+
+    width: 220px;
+    height: 50px;
+
+    &_title {
+      font-size: $font-size_text;
+    }
+
+    &_last-message {
+      font-size: $font-size_description;
+      color: $user-info_last-message_color;
+    }
+  }
+
+  &__overall-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 55px;
+    height: 50px;
+    /* background: blue; */
+
+    &_time {
+      display: flex;
+      align-items: center;
+      height: 20px;
+      padding: 2px;
+      font-size: $font-size_description;
+      background: $user-card_info_background;
+      border-radius: 10px;
+    }
+
+    &_messages-number {
+      font-size: $font-size_description;
+      background: $user-card_info_background;
+      padding: 2px;
+      border-radius: 10px;
+    }
   }
 }

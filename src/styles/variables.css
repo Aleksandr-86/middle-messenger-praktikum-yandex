@@ -1,2 +1,15 @@
+/* Пользовательская карточка */
+$user-card_background: hsla(150, 30%, 70%, 1);
+$user-card_info_background: hsla(110, 50%, 75%, 1);
+$user-info_last-message_color: hsla(0, 0%, 25%, 1);
 
-$user-card-background: blue;
+/* Шрифты */
+$font-size_title: 28px;
+$font-size_message: 22px;
+$font-size_text: 18px;
+$font-size_description: 12px;
+
+
+/* Цвета */
+$user-card-border-color-online: hsla(120, 70%, 45%, 1);
+$user-card-border-color-offline: hsla(360, 70%, 45%, 1);
