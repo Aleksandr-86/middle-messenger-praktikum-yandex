@@ -1,0 +1,6 @@
+/* Переменные */
+/* $size: 100px; */
+
+/* Компоненты */
+@import './variables.css';
+@import '../partials/ui/user-card/user-card.css';

@@ -1,0 +1,15 @@
+/* @import '/src/styles/variables.css'; */
+
+/* @import url('../styles/variables.css'); */
+
+$size: 50px;
+
+.user-card {
+  color: $user-card-background;
+  font-size: 30px;
+
+  &_mod {
+    text-decoration: underline;
+    font-size: $size;
+  }
+}
