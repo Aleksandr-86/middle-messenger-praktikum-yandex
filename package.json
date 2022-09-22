@@ -4,27 +4,17 @@
   "description": "simple chat",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel src/pages/index.hbs --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
-    "assert": "^2.0.0",
-    "events": "^3.3.0",
-    "handlebars": "^4.7.7",
-    "os-browserify": "^0.3.0",
     "parcel": "^2.7.0",
-    "path-browserify": "^1.0.1",
     "postcss": "^8.4.16",
+    "postcss-import": "^15.0.0",
     "postcss-nested": "^5.0.6",
-    "postcss-simple-vars": "^7.0.0",
-    "process": "^0.11.10",
-    "punycode": "^2.1.1",
-    "querystring-es3": "^0.2.1",
-    "url": "^0.11.0",
-    "util": "^0.12.4"
+    "postcss-simple-vars": "^7.0.0"
   }
 }
