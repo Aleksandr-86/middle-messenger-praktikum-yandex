@@ -4,6 +4,13 @@ $font-size_message: 21px;
 $font-size_text: 17px;
 $font-size_description: 11px;
 
+/* Чат */
+$chat_background: hsl(120, 25%, 65%);
+
+/* Пользовательский интерфейс */
+$line_color: hsla(0, 0%, 0%, 0.6);
+/* $line_ */
+
 /* Пользовательская карточка */
 $avatar_border-color_online: hsla(120, 70%, 45%, 1);
 /* $avatar_border-color_offline: hsla(360, 70%, 45%, 1); */

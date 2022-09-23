@@ -1,0 +1,10 @@
+.users-board {
+  width: 365px;
+  height: 720px;
+  padding: 10px;
+  background: $chat_background;
+
+  &__line {
+    margin: 10px 0 10px 0;
+  }
+}
