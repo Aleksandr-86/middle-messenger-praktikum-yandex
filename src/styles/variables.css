@@ -1,15 +1,12 @@
-/* Пользовательская карточка */
-$user-card_background: hsla(150, 30%, 70%, 1);
-$user-card_info_background: hsla(110, 50%, 75%, 1);
-$user-info_last-message_color: hsla(0, 0%, 25%, 1);
-
 /* Шрифты */
-$font-size_title: 28px;
-$font-size_message: 22px;
-$font-size_text: 18px;
-$font-size_description: 12px;
+$font-size_title: 27px;
+$font-size_message: 21px;
+$font-size_text: 17px;
+$font-size_description: 11px;
 
-
-/* Цвета */
-$user-card-border-color-online: hsla(120, 70%, 45%, 1);
-$user-card-border-color-offline: hsla(360, 70%, 45%, 1);
+/* Пользовательская карточка */
+$avatar_border-color_online: hsla(120, 70%, 45%, 1);
+/* $avatar_border-color_offline: hsla(360, 70%, 45%, 1); */
+$last-message_color: hsla(0, 0%, 25%, 1);
+$user-card_background: hsla(150, 30%, 70%, 1);
+$overall-info_background: hsla(110, 50%, 75%, 1);

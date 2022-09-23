@@ -2,18 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
-
   width: 345px;
+  padding: 5px;
   background: $user-card_background;
   border-radius: 8px;
-
-  /* border: 1px solid red; */
 
   &__avatar {
     width: 50px;
     height: 50px;
-    border: 2px solid $user-card-border-color-online;
+    border: 2px solid $avatar_border-color_online;
     border-radius: 50%;
   }
 
@@ -21,12 +18,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2px;
-
-    /* background: yellow; */
-
     width: 220px;
     height: 50px;
+    gap: 2px;
 
     &_title {
       font-size: $font-size_text;
@@ -34,19 +28,18 @@
 
     &_last-message {
       font-size: $font-size_description;
-      color: $user-info_last-message_color;
+      color: $last-message_color;
     }
   }
 
   &__overall-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 5px;
+    align-items: center;
     width: 55px;
     height: 50px;
-    /* background: blue; */
+    gap: 5px;
 
     &_time {
       display: flex;
@@ -54,14 +47,14 @@
       height: 20px;
       padding: 2px;
       font-size: $font-size_description;
-      background: $user-card_info_background;
+      background: $overall-info_background;
       border-radius: 10px;
     }
 
     &_messages-number {
-      font-size: $font-size_description;
-      background: $user-card_info_background;
       padding: 2px;
+      font-size: $font-size_description;
+      background: $overall-info_background;
       border-radius: 10px;
     }
   }
