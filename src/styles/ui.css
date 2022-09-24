@@ -5,3 +5,11 @@
   mix-blend-mode: multiply;
   border-radius: 8px;
 }
+
+.online {
+  border: 2px solid $online_color;
+}
+
+.offline {
+  border: 2px solid $offline_color;
+}

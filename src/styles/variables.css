@@ -9,11 +9,10 @@ $chat_background: hsl(120, 25%, 65%);
 
 /* Пользовательский интерфейс */
 $line_color: hsla(0, 0%, 0%, 0.6);
-/* $line_ */
+$online_color: hsla(120, 70%, 45%, 1);
+$offline_color: hsla(360, 70%, 45%, 1);
 
 /* Пользовательская карточка */
-$avatar_border-color_online: hsla(120, 70%, 45%, 1);
-/* $avatar_border-color_offline: hsla(360, 70%, 45%, 1); */
 $last-message_color: hsla(0, 0%, 25%, 1);
 $user-card_background: hsla(150, 30%, 70%, 1);
 $overall-info_background: hsla(110, 50%, 75%, 1);

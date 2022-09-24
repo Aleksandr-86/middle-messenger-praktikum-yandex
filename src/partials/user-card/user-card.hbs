@@ -1,29 +1,51 @@
-<div class='user-card'>
-  <img
-    class='user-card__avatar'
-    src='../asserts/images/avatars/Lidia.png'
-    alt='avatar'
-  />
+<div class="user-card">
+  {{#if avatarSrc}}
+    {{#if online}}
+      <img
+        class="user-card__avatar online"
+        src="{{{avatarSrc}}}"
+        alt="avatar"
+      />
+    {{else}}
+      <img
+        class="user-card__avatar offline"
+        src="{{{avatarSrc}}}"
+        alt="avatar"
+      />
+    {{/if}}
+  {{else}}
+    {{#if online}}
+      <img
+        class="user-card__avatar online"
+        src="../assets/images/avatars/Empty.svg"
+        alt="avatar"
+      />
+    {{else}}
+      <img
+        class="user-card__avatar offline"
+        src="../assets/images/avatars/Empty.svg"
+        alt="avatar"
+      />
+    {{/if}}
+  {{/if}}
 
-  <div class='user-card__user-info'>
-    <div class='user-card__user-info_title'>
-      {{! Лидия Дмитриева }}
-      {{{name}}}
+  <div class="user-card__user-info">
+    <div class="user-card__user-info_title">
+      {{{displayName}}}
     </div>
-    <div class='user-card__user-info_last-message'>
-      {{! Мы тебя дождёмся в любом случае))) И другой текст для ... }}
+    <div class="user-card__user-info_last-message">
       {{lastMessage}}
     </div>
   </div>
 
-  <div class='user-card__overall-info'>
-    <div class='user-card__overall-info_time'>
-      {{! 31 февр. }}
+  <div class="user-card__overall-info">
+    <div class="user-card__overall-info_time">
       {{{activeTime}}}
     </div>
-    <div class='user-card__overall-info_messages-number'>
-      {{! +9999 }}
-      {{mesNumber}}
-    </div>
+    {{#if messagesNumber}}
+      <div class="user-card__overall-info_messages-number">
+        {{messagesNumber}}
+      </div>
+    {{/if}}
   </div>
 </div>

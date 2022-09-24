@@ -2,7 +2,7 @@
 @import './variables.css';
 
 /* Пользовательский интерфейс */
-@import '../partials/ui/line/line.css';
+@import './ui.css';
 
 /* Компоненты */
 @import '../partials/user-card/user-card.css';

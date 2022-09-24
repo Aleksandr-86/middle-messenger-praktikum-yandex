@@ -1,0 +1,73 @@
+{
+	"1": {
+		"online": false,
+		"avatarSrc": "../assets/images/avatars/Lidia.png",
+		"displayName": "Лидия Дмитриева",
+		"lastMessage": "< Мы тебя дождёмся в любом случае)))",
+		"activeTime": "12:10",
+		"messagesNumber": 0 
+	},
+
+	"2": {
+		"online": true,
+		"avatarSrc": "../assets/images/avatars/Sergei.png",
+		"displayName": "Сергей Чехин (ТН)",
+		"lastMessage": "< Устранили ещё вчера. Можно закрывать.",
+		"activeTime": "недавно",
+		"messagesNumber": 0 
+	},
+
+	"3": {
+		"online": false,
+		"avatarSrc": "../assets/images/avatars/Oleg.png",
+		"displayName": "Олег Н.",
+		"lastMessage": "> В выходные скорее всего.",
+		"activeTime": "недавно",
+		"messagesNumber": 0 
+	},
+
+	"4": {
+		"online": false,
+		"avatarSrc": "../assets/images/avatars/Pavel.png",
+		"displayName": "Павел Беркут",
+		"lastMessage": "< ... неплохо. Я кстати там не был, но планирую побывать там если ...",
+		"activeTime": "08 сент.",
+		"messagesNumber": 0
+	},
+
+	"5": {
+		"online": true,
+		"avatarSrc": "../assets/images/avatars/Nadezda.png",
+		"displayName": "Надежда (Москва)",
+		"lastMessage": "> Не знаю, я там не бываю. А ты?",
+		"activeTime": "Вт.",
+		"messagesNumber": 0
+	},
+
+	"6": {
+		"online": false,
+		"avatarSrc": "",
+		"displayName": "Дмитрий",
+		"lastMessage": "> Привет. Отгрузка в среду. Накладные в твоей почте.",
+		"activeTime": "11 сент.",
+		"messagesNumber": 5
+	},
+
+	"7": {
+		"online": false,
+		"avatarSrc": "../assets/images/avatars/Alyona.png",
+		"displayName": "Алёна Морозова",
+		"lastMessage": "< У меня аллергия на шерсть. Так что мне не вариант 😬 А вообще ...",
+		"activeTime": "недавно",
+		"messagesNumber": 0
+	},
+
+	"8": {
+		"online": false,
+		"avatarSrc": "../assets/images/avatars/Kseniya.png",
+		"displayName": "Ксения Евсеева",
+		"lastMessage": "> 😌",
+		"activeTime": "07:34",
+		"messagesNumber": 0
+	}``
+}

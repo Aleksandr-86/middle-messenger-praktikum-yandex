@@ -1,7 +1,10 @@
 <div class="users-board">
-	{{> "user-card/user-card" post }}
+	{{> "user-card/user-card" owner }}
+	
+	<div class="users-board__line line"></div>
 
-<div class="users-board__line"> {{> "ui/line/line" }} </div>
-
+	{{#each users}}
+		{{> "user-card/user-card" this }}
+	{{/each}}
 
 </div>
