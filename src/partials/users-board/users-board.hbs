@@ -3,8 +3,18 @@
 	
 	<div class="users-board__line line"></div>
 
+	<div class="users-board__control">
+		<div class="users-board__control_filter">
+			<div>Пользователь</div>
+			<button class="users-board__control_drop-down">▼</button>
+		</div>
+		<button class="users-board__control_add-user">++</button>
+	</div>
+
+	<div class="users-board__list">
 	{{#each users}}
 		{{> "user-card/user-card" this }}
 	{{/each}}
+	</div>
 
 </div>

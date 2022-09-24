@@ -7,4 +7,42 @@
   &__line {
     margin: 10px 0 10px 0;
   }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__control {
+    display: flex; 
+    justify-content: space-between;
+    height: 30px;
+    /* gap: 50px; */
+
+    background: red;
+
+    &_filter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: green;
+    }
+
+    &_add-user {
+      /* display: flex;
+      jystify-content: center;
+      align-items: center; */
+      width: 30px;
+      /* font-size: 30px; */
+      border: 2px solid black;
+      /* border-radius: 50%; */
+      /* background: yellow; */
+
+      &::activate {
+        bacground: red;
+      }
+    }
+
+  }
 }
