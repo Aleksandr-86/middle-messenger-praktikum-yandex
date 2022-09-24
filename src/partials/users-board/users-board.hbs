@@ -1,15 +1,17 @@
 <div class="users-board">
 	{{> "user-card/user-card" owner }}
-	
-	<div class="users-board__line line"></div>
+
+	{{!-- <div class="users-board__control_line line">&nbsp</div> --}}
 
 	<div class="users-board__control">
 		<div class="users-board__control_filter">
 			<div>Пользователь</div>
-			<button class="users-board__control_drop-down">▼</button>
+			<button class="users-board__control_drop-down"></button>
 		</div>
-		<button class="users-board__control_add-user">++</button>
+		<button class="users-board__control_add-user"></button>
 	</div>
+
+	{{!-- <div class="line">&nbsp</div> --}}
 
 	<div class="users-board__list">
 	{{#each users}}

@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   width: 345px;
+  height: 65px;
   padding: 5px;
   background: $user-card_background;
   border-radius: 8px;
@@ -26,11 +27,11 @@
     gap: 2px;
 
     &_title {
-      font-size: $font-size_text;
+      font-size: $text_font-size;
     }
 
     &_last-message {
-      font-size: $font-size_description;
+      font-size: $description_font-size;
       color: $last-message_color;
     }
   }
@@ -50,14 +51,14 @@
       align-items: center;
       height: 20px;
       padding: 2px;
-      font-size: $font-size_description;
+      font-size: $description_font-size;
       background: $overall-info_background;
       border-radius: 10px;
     }
 
     &_messages-number {
       padding: 2px;
-      font-size: $font-size_description;
+      font-size: $description_font-size;
       background: $overall-info_background;
       border-radius: 10px;
     }

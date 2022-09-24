@@ -1,10 +1,10 @@
-.line {
+/* .line {
   height: 3px;
   color: blue;
   box-shadow: inset 0 1px 2px hsl(0, 0%, 50%);
   mix-blend-mode: multiply;
   border-radius: 8px;
-}
+} */
 
 .online {
   background: $online_background;

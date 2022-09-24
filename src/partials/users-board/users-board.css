@@ -1,48 +1,50 @@
 .users-board {
+  display: flex;
+  flex-direction: column;
+
   width: 365px;
   height: 720px;
   padding: 10px;
   background: $chat_background;
+  gap: 10px;
 
-  &__line {
-    margin: 10px 0 10px 0;
+  &__control {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background: red;
+
+    x &_filter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &_drop-down,
+    &_add-user {
+      width: 30px;
+      height: 30px;
+      background-color: transparent;
+      background-size: cover;
+      border: none;
+
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+
+    &_drop-down {
+      background-image: url("../assets/images/icons/arrow-down.svg");
+    }
+
+    &_add-user {
+      background-image: url("../assets/images/icons/plus.svg");
+    }
   }
 
   &__list {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-
-  &__control {
-    display: flex; 
-    justify-content: space-between;
-    height: 30px;
-    /* gap: 50px; */
-
-    background: red;
-
-    &_filter {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      background: green;
-    }
-
-    &_add-user {
-      /* display: flex;
-      jystify-content: center;
-      align-items: center; */
-      width: 30px;
-      /* font-size: 30px; */
-      border: 2px solid black;
-      /* border-radius: 50%; */
-      /* background: yellow; */
-
-      &::activate {
-        bacground: red;
-      }
-    }
-
   }
 }

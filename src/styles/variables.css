@@ -1,18 +1,18 @@
 /* Шрифты */
-$font-size_title: 27px;
-$font-size_message: 21px;
-$font-size_text: 17px;
-$font-size_description: 11px;
+$title_font-size: 27px;
+$message_font-size: 21px;
+$text_font-size: 17px;
+$description_font-size: 11px;
+
+/* Примитивы */
+$line_color: hsla(0, 0%, 0%, 0.6);
 
 /* Чат */
 $chat_background: hsl(120, 25%, 65%);
 
-/* Пользовательский интерфейс */
-$line_color: hsla(0, 0%, 0%, 0.6);
-$online_background: hsla(120, 70%, 45%, 1);
-$offline_background: hsla(360, 70%, 45%, 1);
-
 /* Пользовательская карточка */
 $last-message_color: hsla(0, 0%, 25%, 1);
+$online_background: hsla(120, 70%, 45%, 1);
+$offline_background: hsla(360, 70%, 45%, 1);
 $user-card_background: hsla(150, 30%, 70%, 1);
 $overall-info_background: hsla(110, 50%, 75%, 1);
