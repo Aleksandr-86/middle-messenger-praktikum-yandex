@@ -1,12 +1,12 @@
 .users-board {
   display: flex;
   flex-direction: column;
-
   width: 365px;
   height: 720px;
   padding: 10px;
   background: $chat_background;
   gap: 10px;
+  user-select: none;
 
   &__control {
     display: flex;

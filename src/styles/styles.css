@@ -1,18 +1,21 @@
 /* Переменные */
-@import './variables.css';
+@import "./variables.css";
 
 /* Пользовательский интерфейс */
-@import './ui.css';
+@import "./ui.css";
+
+/* Страницы */
+@import "../pages/main.css";
 
 /* Компоненты */
-@import '../partials/user-card/user-card.css';
-@import '../partials/users-board/users-board.css';
+@import "../partials/user-card/user-card.css";
+@import "../partials/users-board/users-board.css";
 
 /* Шрифт ParaType (http://www.paratype.com)*/
 @font-face {
-  font-family: 'GolosTextWebRegular';
-  src: url('../fonts/Golos-Text_Regular.woff2') format('woff2'),
-    url('../fonts/Golos-Text_Regular.woff') format('woff');
+  font-family: "GolosTextWebRegular";
+  src: url("../fonts/Golos-Text_Regular.woff2") format("woff2"),
+    url("../fonts/Golos-Text_Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,5 +27,5 @@
 }
 
 body {
-  font-family: 'GolosTextWebRegular';
+  font-family: "GolosTextWebRegular";
 }
