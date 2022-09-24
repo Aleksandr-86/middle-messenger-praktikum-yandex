@@ -12,9 +12,8 @@
     display: flex;
     justify-content: space-between;
     height: 30px;
-    background: red;
 
-    x &_filter {
+    &_filter {
       display: flex;
       flex-direction: row;
       align-items: center;
