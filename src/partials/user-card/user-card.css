@@ -35,7 +35,8 @@
     height: 50px;
     gap: 2px;
 
-    &_title {
+    &_display-name {
+      color: $display-name_color;
       font-size: $text_font-size;
     }
 
@@ -52,6 +53,7 @@
     align-items: center;
     width: 55px;
     height: 50px;
+    color: $overall-info_color;
     font-size: $description_font-size;
     gap: 5px;
     user-select: none;

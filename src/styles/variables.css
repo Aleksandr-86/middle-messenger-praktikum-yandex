@@ -4,21 +4,37 @@ $message_font-size: 21px;
 $text_font-size: 17px;
 $description_font-size: 11px;
 
-/* Примитивы */
+/* Основные */
+$regular-text_color: hsl(51, 80%, 70%);
 $line_color: hsla(0, 0%, 0%, 0.6);
+
 $input_background: hsl(120, 40%, 80%);
 $inner_box-shadow: inset 2px 2px 4px hsla(0, 0%, 0%, 0.55);
+
 $drop_box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.55);
 
+$icon_color: red;
+
 /* Чат */
-$chat_background: hsl(120, 25%, 65%);
-$chat-message-taken_background: hsl(65, 30%, 75%);
-$chat-message-sended_background: hsl(120, 39%, 80%);
+$chat_background: hsl(270, 7%, 12%);
+$users-board_background: hsl(270, 7%, 12%);
+
+$chat-message-taken_background: hsl(51, 80%, 12%);
+$chat-message-taken_color: hsl(51, 80%, 70%);
+/* $chat-message-sended_background: hsl(127, 64%, 25%); */
+$chat-message-sended_background: hsl(127, 64%, 14%);
+$chat-message-sended_color: hsl(127, 24%, 70%);
 
 /* Пользовательская карточка */
-$last-message_color: hsl(0, 0%, 25%);
+$user-card_background: hsl(270, 40%, 20%);
+$user-card_border-color: hsl(300, 100%, 40%);
+
 $online_background: hsl(120, 70%, 45%);
 $offline_background: hsl(360, 70%, 45%);
-$user-card_background: hsl(150, 30%, 70%);
-$overall-info_background: hsl(110, 50%, 75%);
-$user-card_border-color: hsl(300, 100%, 40%);
+
+$display-name_color: hsl(270, 80%, 80%);
+$last-message_color: hsl(51, 80%, 70%);
+
+/* $overall-info_color: hsl(51, 100%, 50%); */
+$overall-info_color: hsl(180, 80%, 45%);
+$overall-info_background: hsl(180, 80%, 10%);

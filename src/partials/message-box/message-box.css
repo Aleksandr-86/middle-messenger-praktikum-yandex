@@ -26,11 +26,13 @@
   }
 
   &__message_type_taken {
+    color: $chat-message-taken_color;
     background: $chat-message-taken_background;
     border-radius: 0 8px 8px 0;
   }
 
   &__message_type_sended {
+    color: $chat-message-sended_color;
     background: $chat-message-sended_background;
     border-radius: 8px 0 0 8px;
   }
