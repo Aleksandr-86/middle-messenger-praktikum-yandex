@@ -1,5 +1,5 @@
-{
-	"1": {
+[
+	{
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/lidia.png",
 		"displayName": "Лидия Дмитриева",
@@ -7,8 +7,7 @@
 		"activeTime": "12:10",
 		"messagesNumber": 0 
 	},
-
-	"2": {
+	{
 		"online": true,
 		"avatarSrc": "../assets/images/avatars/sergei.png",
 		"displayName": "Сергей Чехин (ТН)",
@@ -16,8 +15,7 @@
 		"activeTime": "недавно",
 		"messagesNumber": 0 
 	},
-
-	"3": {
+	{
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/oleg.png",
 		"displayName": "Олег Н.",
@@ -25,8 +23,7 @@
 		"activeTime": "недавно",
 		"messagesNumber": 0 
 	},
-
-	"4": {
+	{
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/pavel.png",
 		"displayName": "Павел Беркут",
@@ -34,8 +31,7 @@
 		"activeTime": "08 сент.",
 		"messagesNumber": 0
 	},
-
-	"5": {
+	{
 		"online": true,
 		"avatarSrc": "../assets/images/avatars/nadezda.png",
 		"displayName": "Надежда (Москва)",
@@ -43,8 +39,7 @@
 		"activeTime": "Вт.",
 		"messagesNumber": 0
 	},
-
-	"6": {
+	{
 		"online": false,
 		"avatarSrc": "",
 		"displayName": "Дмитрий",
@@ -52,8 +47,7 @@
 		"activeTime": "11 сент.",
 		"messagesNumber": 5
 	},
-
-	"7": {
+	{
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/alyona.png",
 		"displayName": "Алёна Морозова",
@@ -61,8 +55,7 @@
 		"activeTime": "недавно",
 		"messagesNumber": 0
 	},
-
-	"8": {
+	{
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/kseniya.png",
 		"displayName": "Ксения Евсеева",
@@ -70,4 +63,4 @@
 		"activeTime": "07:34",
 		"messagesNumber": 0
 	}
-}
+]

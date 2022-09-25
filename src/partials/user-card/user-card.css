@@ -6,9 +6,18 @@
   height: 60px;
   padding: 5px;
   background: $user-card_background;
+  border: 2px solid transparent;
   border-radius: 8px;
   box-shadow: $drop_box-shadow;
   cursor: pointer;
+
+  &:active {
+    transform: scale(0.99);
+  }
+
+  &:hover {
+    border: 2px solid green;
+  }
 
   &__avatar {
     width: 50px;

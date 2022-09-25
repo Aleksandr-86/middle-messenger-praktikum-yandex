@@ -31,6 +31,7 @@
       background-color: transparent;
       background-size: cover;
       border: none;
+      cursor: pointer;
 
       &:active {
         transform: scale(0.9);
@@ -39,10 +40,6 @@
 
     &_drop-down {
       background-image: url("../assets/images/icons/arrow-down.svg");
-    }
-
-    &_drop-down::hover {
-      background: red;
     }
 
     &_add-user {
