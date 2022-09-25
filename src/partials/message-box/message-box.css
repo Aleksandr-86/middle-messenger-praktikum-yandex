@@ -1,7 +1,7 @@
 .message-box {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 0.2vh;
 
   &__time,
   &__message_type_taken,
@@ -13,7 +13,6 @@
   &__time {
     width: fit-content;
     font-size: $description_font-size;
-    font-weight: bold;
     border-radius: 8px 8px 0 0;
     box-shadow: $drop_box-shadow;
   }

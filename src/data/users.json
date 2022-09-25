@@ -1,5 +1,5 @@
-[
-	{
+{
+	"0001": {
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/lidia.png",
 		"displayName": "Лидия Дмитриева",
@@ -9,13 +9,49 @@
 		"chatBox": [
 			{
 				"taken": false,
-				"time": "12:06",
-				"message": ["Добрый день.", "ИД по СР2 проверена?"],
-				"like": ":)"
+				"time": "13:07",
+				"arrayMessages": ["Добрый день. ИД по СР2 проверена? Есть замечания?"],
+				"reaction": ""
+			},
+			{
+				"taken": true,
+				"time": "13:22",
+				"arrayMessages": ["Проверена, есть замечания. Передам их по почте сегодня."],
+				"reaction": ""
+			},
+			{
+				"taken": false,
+				"time": "13:23",
+				"arrayMessages": ["Что то серьёзное?"],
+				"reaction": ""
+			},
+			{
+				"taken": true,
+				"time": "13:23",
+				"arrayMessages": [
+					"Ничего серьёзного.",
+					"Отметки некоторых фундаментов не бьются с третьей ревизией РД."
+				],
+				"reaction": ""
+			},
+			{
+				"taken": true,
+				"time": "13:24",
+				"arrayMessages": [
+					"Также есть вопросы по ДК на арматуру.",
+					"Замечания по предписанию \"каркас фундамента операторной\" устранены?"
+				],
+				"reaction": ""
+			},
+			{
+				"taken": false,
+				"time": "13:25",
+				"arrayMessages": ["Устранили ещё вчера. Можно закрывать."],
+				"reaction": "&#128077;&#129309;"
 			}
 		]
 	},
-	{
+	"0002": {
 		"online": true,
 		"avatarSrc": "../assets/images/avatars/sergei.png",
 		"displayName": "Сергей Чехин (ТН)",
@@ -23,7 +59,7 @@
 		"activeTime": "недавно",
 		"messagesNumber": 0 
 	},
-	{
+	"0003": {
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/oleg.png",
 		"displayName": "Олег Н.",
@@ -31,7 +67,7 @@
 		"activeTime": "недавно",
 		"messagesNumber": 0 
 	},
-	{
+	"0004": {
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/pavel.png",
 		"displayName": "Павел Беркут",
@@ -39,7 +75,7 @@
 		"activeTime": "08 сент.",
 		"messagesNumber": 0
 	},
-	{
+	"0005": {
 		"online": true,
 		"avatarSrc": "../assets/images/avatars/nadezda.png",
 		"displayName": "Надежда (Москва)",
@@ -47,7 +83,7 @@
 		"activeTime": "Вт.",
 		"messagesNumber": 0
 	},
-	{
+	"0006": {
 		"online": false,
 		"avatarSrc": "",
 		"displayName": "Дмитрий",
@@ -55,7 +91,7 @@
 		"activeTime": "11 сент.",
 		"messagesNumber": 5
 	},
-	{
+	"0007": {
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/alyona.png",
 		"displayName": "Алёна Морозова",
@@ -63,7 +99,7 @@
 		"activeTime": "недавно",
 		"messagesNumber": 0
 	},
-	{
+	"0008": {
 		"online": false,
 		"avatarSrc": "../assets/images/avatars/kseniya.png",
 		"displayName": "Ксения Евсеева",
@@ -71,4 +107,4 @@
 		"activeTime": "07:34",
 		"messagesNumber": 0
 	}
-]
+}

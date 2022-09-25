@@ -12,8 +12,8 @@ $drop_box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.55);
 
 /* Чат */
 $chat_background: hsl(120, 25%, 65%);
-$chat-message-taken_background: pink;
-$chat-message-sended_background: yellow;
+$chat-message-taken_background: hsl(65, 30%, 75%);
+$chat-message-sended_background: hsl(120, 39%, 80%);
 
 /* Пользовательская карточка */
 $last-message_color: hsl(0, 0%, 25%);
