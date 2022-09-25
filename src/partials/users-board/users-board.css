@@ -41,6 +41,10 @@
       background-image: url("../assets/images/icons/arrow-down.svg");
     }
 
+    &_drop-down::hover {
+      background: red;
+    }
+
     &_add-user {
       background-image: url("../assets/images/icons/plus.svg");
     }
