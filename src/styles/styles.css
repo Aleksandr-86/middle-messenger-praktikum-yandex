@@ -8,7 +8,9 @@
 @import "../pages/main.css";
 
 /* Компоненты */
-@import "../partials/chats-row/chats-row.css";
+@import "../partials/chat-box/chat-box.css";
+@import "../partials/message-box/message-box.css";
+@import "../partials/selected-chats/selected-chats.css";
 @import "../partials/user-card/user-card.css";
 @import "../partials/users-board/users-board.css";
 

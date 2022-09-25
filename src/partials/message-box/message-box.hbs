@@ -1,0 +1,35 @@
+{{#if taken}}
+  <div class="message-box">
+    <div class="message-box__time taken_background">{{time}}</div>
+    {{#if taken}}
+      {{#each arrayMessages}}
+        <div class="message-box__message_type_taken">{{this}}</div>
+      {{/each}}
+    {{else}}
+      {{#each arrayMessages}}
+        <div class="message-box__message_type_sended">{{this}}</div>
+      {{/each}}
+    {{/if}}
+
+    {{#if reaction}}
+      <div class="message-box__emoji taken_background">{{{reaction}}}</div>
+    {{/if}}
+  </div>
+{{else}}
+  <div class="message-box flex-align_right">
+    <div class="message-box__time sended_background">{{time}}</div>
+    {{#if taken}}
+      {{#each arrayMessages}}
+        <div class="message-box__message_type_taken">{{this}}</div>
+      {{/each}}
+    {{else}}
+      {{#each arrayMessages}}
+        <div class="message-box__message_type_sended">{{this}}</div>
+      {{/each}}
+    {{/if}}
+
+    {{#if reaction}}
+      <div class="message-box__emoji sended_background">{{{reaction}}}</div>
+    {{/if}}
+  </div>
+{{/if}}

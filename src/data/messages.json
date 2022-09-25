@@ -1,0 +1,14 @@
+[
+	{
+		"taken": false,
+		"time": "12:06",
+		"arrayMessages": ["Добрый день.", "ИД по СР2 проверена?"],
+		"reaction": "&#128512"
+	},
+	{
+		"taken": true,
+		"time": "14:10",
+		"arrayMessages": ["Проверка", "fs"],
+		"reaction": ""
+	}
+]

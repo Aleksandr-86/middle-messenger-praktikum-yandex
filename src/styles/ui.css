@@ -6,14 +6,6 @@
   border-radius: 8px;
 }
 
-.online {
-  background: $online_background;
-}
-
-.offline {
-  background: $offline_background;
-}
-
 .input {
   height: 30px;
   font-family: "GolosTextWebRegular";
@@ -23,4 +15,24 @@
   background: $input_background;
   box-shadow: $inner_box-shadow;
   outline: none;
+}
+
+.online {
+  background: $online_background;
+}
+
+.offline {
+  background: $offline_background;
+}
+
+.flex-align_right {
+  align-items: flex-end;
+}
+
+.taken_background {
+  background: $chat-message-taken_background;
+}
+
+.sended_background {
+  background: $chat-message-sended_background;
 }

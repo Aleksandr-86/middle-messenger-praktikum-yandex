@@ -5,7 +5,15 @@
 		"displayName": "Лидия Дмитриева",
 		"lastMessage": "< Мы тебя дождёмся в любом случае)))",
 		"activeTime": "12:10",
-		"messagesNumber": 0 
+		"messagesNumber": 0,
+		"chatBox": [
+			{
+				"taken": false,
+				"time": "12:06",
+				"message": ["Добрый день.", "ИД по СР2 проверена?"],
+				"like": ":)"
+			}
+		]
 	},
 	{
 		"online": true,

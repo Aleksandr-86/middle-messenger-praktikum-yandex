@@ -1,0 +1,44 @@
+.message-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  &__time,
+  &__message_type_taken,
+  &__message_type_sended,
+  &__emoji {
+    padding: 3px;
+  }
+
+  &__time {
+    width: fit-content;
+    font-size: $description_font-size;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    box-shadow: $drop_box-shadow;
+  }
+
+  &__message_type_taken,
+  &__message_type_sended {
+    max-width: 650px;
+    width: fit-content;
+    font-size: $message_font-size;
+    box-shadow: $drop_box-shadow;
+  }
+
+  &__message_type_taken {
+    background: $chat-message-taken_background;
+    border-radius: 0 8px 8px 0;
+  }
+
+  &__message_type_sended {
+    background: $chat-message-sended_background;
+    border-radius: 8px 0 0 8px;
+  }
+
+  &__emoji {
+    width: fit-content;
+    border-radius: 0 0 8px 8px;
+    box-shadow: $drop_box-shadow;
+  }
+}
