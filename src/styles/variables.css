@@ -6,7 +6,7 @@ $description_font-size: 11px;
 
 /* Примитивы */
 $line_color: hsla(0, 0%, 0%, 0.6);
-$input_background: hsla(120, 40%, 80%, 1);
+$input_background: hsl(120, 40%, 80%);
 $inner_box-shadow: inset 3px 3px 5px hsla(0, 0%, 0%, 0.55);
 $drop_box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.55);
 
@@ -14,8 +14,9 @@ $drop_box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.55);
 $chat_background: hsl(120, 25%, 65%);
 
 /* Пользовательская карточка */
-$last-message_color: hsla(0, 0%, 25%, 1);
-$online_background: hsla(120, 70%, 45%, 1);
-$offline_background: hsla(360, 70%, 45%, 1);
-$user-card_background: hsla(150, 30%, 70%, 1);
-$overall-info_background: hsla(110, 50%, 75%, 1);
+$last-message_color: hsl(0, 0%, 25%);
+$online_background: hsl(120, 70%, 45%);
+$offline_background: hsl(360, 70%, 45%);
+$user-card_background: hsl(150, 30%, 70%);
+$overall-info_background: hsl(110, 50%, 75%);
+$user-card_border-color: hsl(300, 100%, 40%);

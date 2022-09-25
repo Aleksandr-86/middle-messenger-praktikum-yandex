@@ -16,7 +16,7 @@
   }
 
   &:hover {
-    border: 2px solid green;
+    border: 2px solid $user-card_border-color;
   }
 
   &__avatar {
