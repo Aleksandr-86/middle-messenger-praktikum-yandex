@@ -10,6 +10,7 @@
 /* Компоненты */
 @import "../partials/chat-box/chat-box.css";
 @import "../partials/message-box/message-box.css";
+@import "../partials/post-board/post-board.css";
 @import "../partials/selected-chats/selected-chats.css";
 @import "../partials/user-card/user-card.css";
 @import "../partials/users-board/users-board.css";
