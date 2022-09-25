@@ -39,9 +39,11 @@
   </div>
 
   <div class="user-card__overall-info">
-    <div class="user-card__overall-info_time">
-      {{{activeTime}}}
-    </div>
+    {{#if activeTime}}
+      <div class="user-card__overall-info_time">
+        {{{activeTime}}}
+      </div>
+    {{/if}}
     {{#if messagesNumber}}
       <div class="user-card__overall-info_messages-number">
         {{messagesNumber}}
