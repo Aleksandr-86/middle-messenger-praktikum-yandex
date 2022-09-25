@@ -5,12 +5,17 @@
   height: 720px;
   padding: 10px;
   background: $chat_background;
-  gap: 10px;
   user-select: none;
+
+  &__line {
+    margin: 10px 0 0px 0;
+  }
 
   &__control {
     display: flex;
     justify-content: space-between;
+    /* margin-top: 5px; */
+    margin: 3px 0 4px 0;
     height: 30px;
 
     &_filter {
@@ -39,6 +44,11 @@
     &_add-user {
       background-image: url("../assets/images/icons/plus.svg");
     }
+  }
+
+  &__input {
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
   }
 
   &__list {

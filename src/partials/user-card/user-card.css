@@ -3,11 +3,11 @@
   justify-content: space-between;
   align-items: center;
   width: 345px;
-  height: 63px;
+  height: 60px;
   padding: 5px;
   background: $user-card_background;
   border-radius: 8px;
-  box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.5);
+  box-shadow: $drop_box-shadow;
   cursor: pointer;
 
   &__avatar {
