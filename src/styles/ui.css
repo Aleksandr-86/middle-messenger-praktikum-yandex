@@ -1,11 +1,3 @@
-/* .line {
-  height: 10px;
-  color: blue;
-  box-shadow: inset 0 2px 4px $line_color;
-  mix-blend-mode: multiply;
-  border-radius: 8px;
-} */
-
 .input {
   height: 50px;
   font-family: "GolosTextWebRegular";
