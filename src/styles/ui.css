@@ -20,6 +20,26 @@
   outline: none;
 }
 
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 25px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $scrollbar-track_background;
+    border: 11.5px solid $chat_background;
+    border-radius: 120px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $scrollbar-thumb_background;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    border-radius: 120px;
+    box-shadow: $scrollbar-thumb_box-shadow-1, $scrollbar-thumb_box-shadow-2;
+  }
+}
+
 .online {
   background: $online_background;
 }
@@ -33,14 +53,14 @@
 }
 
 .taken {
-  margin-left: 10px;
+  margin-left: 8px;
   color: $chat-message-taken_color;
   background: $chat-message-taken_background;
   box-shadow: $chat-message-taken_box-shadow;
 }
 
 .sended {
-  margin-right: 10px;
+  margin-right: 4px;
   color: $chat-message-sended_color;
   background: $chat-message-sended_background;
   box-shadow: $chat-message-sended_box-shadow;
