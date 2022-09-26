@@ -32,9 +32,11 @@
 .taken {
   color: $chat-message-taken_color;
   background: $chat-message-taken_background;
+  box-shadow: $chat-message-taken_box-shadow;
 }
 
 .sended {
   color: $chat-message-sended_color;
   background: $chat-message-sended_background;
+  box-shadow: $chat-message-sended_box-shadow;
 }

@@ -3,11 +3,11 @@
     <div class="message-box__time taken">{{time}}</div>
     {{#if taken}}
       {{#each arrayMessages}}
-        <div class="message-box__message_type_taken">{{this}}</div>
+        <div class="message-box__message_type_taken taken">{{this}}</div>
       {{/each}}
     {{else}}
       {{#each arrayMessages}}
-        <div class="message-box__message_type_sended">{{this}}</div>
+        <div class="message-box__message_type_sended sended">{{this}}</div>
       {{/each}}
     {{/if}}
 
@@ -20,11 +20,11 @@
     <div class="message-box__time sended">{{time}}</div>
     {{#if taken}}
       {{#each arrayMessages}}
-        <div class="message-box__message_type_taken">{{this}}</div>
+        <div class="message-box__message_type_taken taken">{{this}}</div>
       {{/each}}
     {{else}}
       {{#each arrayMessages}}
-        <div class="message-box__message_type_sended">{{this}}</div>
+        <div class="message-box__message_type_sended sended">{{this}}</div>
       {{/each}}
     {{/if}}
 

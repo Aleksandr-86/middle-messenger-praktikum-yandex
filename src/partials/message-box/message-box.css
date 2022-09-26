@@ -7,6 +7,10 @@
   overflow: auto;
   overflow-wrap: break-word;
 
+  & div:last-child {
+    margin-bottom: 3px;
+  }
+
   &__time,
   &__message_type_taken,
   &__message_type_sended,
@@ -26,31 +30,18 @@
     max-width: 650px;
     width: fit-content;
     font-size: $message_font-size;
-    /* box-shadow: $chat-message-taken_box-shadow; */
-  }
-
-  &__message_type_taken:last-child,
-  &__message_type_sended:last-child {
-    margin-bottom: 3px;
   }
 
   &__message_type_taken {
-    color: $chat-message-taken_color;
-    background: $chat-message-taken_background;
     border-radius: 0 8px 8px 0;
-    box-shadow: $chat-message-taken_box-shadow;
   }
 
   &__message_type_sended {
-    color: $chat-message-sended_color;
-    background: $chat-message-sended_background;
     border-radius: 8px 0 0 8px;
-    box-shadow: $chat-message-sended_box-shadow;
   }
 
   &__emoji {
     width: fit-content;
     border-radius: 0 0 8px 8px;
-    /* box-shadow: $drop_box-shadow; */
   }
 }
