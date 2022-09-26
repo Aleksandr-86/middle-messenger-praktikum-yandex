@@ -45,7 +45,6 @@
     }
 
     &_add-user {
-      fill: $icon_color;
       background-image: url("../assets/images/icons/user-plus.svg");
     }
   }
