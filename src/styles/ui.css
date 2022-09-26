@@ -9,7 +9,7 @@
 
 .input {
   height: 50px;
-  padding: 10px;
+  padding: 0px 15px 0px 15px;
   font-family: "GolosTextWebRegular";
   font-size: $text_font-size;
   color: $input_color;
@@ -42,5 +42,5 @@
   color: $chat-message-sended_color;
   background: $chat-message-sended_background;
   box-shadow: $chat-message-sended_box-shadow;
-  margin-right: 3px;
+  margin-right: 7px;
 }
