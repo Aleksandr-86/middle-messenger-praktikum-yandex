@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 480px; */
   height: 80px;
   padding: 10px;
   background: $user-card_background;
@@ -29,7 +28,6 @@
   }
 
   &__user-info {
-    /* background: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +49,6 @@
   }
 
   &__overall-info {
-    /* background: green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +63,6 @@
     &_time {
       display: flex;
       align-items: center;
-      /* height: 25px; */
       padding: 0 4px 0 4px;
       background: $overall-info_background;
       border-radius: 10px;
