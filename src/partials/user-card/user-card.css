@@ -2,14 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 345px;
-  height: 60px;
-  padding: 5px;
+  /* width: 480px; */
+  height: 80px;
+  padding: 10px;
   background: $user-card_background;
   border: 2px solid transparent;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: $drop_box-shadow;
   cursor: pointer;
+  gap: 10px;
 
   &:active {
     transform: scale(0.99);
@@ -20,19 +21,20 @@
   }
 
   &__avatar {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border: 2px solid transparent;
     border-radius: 50%;
     user-select: none;
   }
 
   &__user-info {
+    /* background: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 220px;
-    height: 50px;
+    width: 290px;
+    height: 70px;
     gap: 2px;
 
     &_display-name {
@@ -41,17 +43,20 @@
     }
 
     &_last-message {
+      height: 40px;
       font-size: $description_font-size;
       color: $last-message_color;
+      overflow: hidden;
     }
   }
 
   &__overall-info {
+    /* background: green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 55px;
+    width: 80px;
     height: 50px;
     color: $overall-info_color;
     font-size: $description_font-size;
@@ -61,7 +66,7 @@
     &_time {
       display: flex;
       align-items: center;
-      height: 20px;
+      /* height: 25px; */
       padding: 0 4px 0 4px;
       background: $overall-info_background;
       border-radius: 10px;
