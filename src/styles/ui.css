@@ -12,9 +12,10 @@
   padding: 10px;
   font-family: "GolosTextWebRegular";
   font-size: $text_font-size;
+  color: $input_color;
+  background: $input_background;
   border: none;
   border-radius: 12px;
-  background: $input_background;
   box-shadow: $inner_box-shadow;
   outline: none;
 }

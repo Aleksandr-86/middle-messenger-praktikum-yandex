@@ -33,9 +33,12 @@
     <div class="user-card__user-info_display-name">
       {{{displayName}}}
     </div>
-    <div class="user-card__user-info_last-message">
-      {{lastMessage}}
-    </div>
+
+    {{#if lastMessage}}
+      <div class="user-card__user-info_last-message">
+        {{lastMessage}}
+      </div>
+    {{/if}}
   </div>
 
   <div class="user-card__overall-info">
