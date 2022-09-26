@@ -115,19 +115,19 @@
     "messagesNumber": 0
   },
   "0009": {
-    "online": false,
+    "online": true,
     "avatarSrc": "",
-    "displayName": "Виктор Воробьёв",
-    "lastMessage": "> Лады))",
-    "activeTime": "11:15",
+    "displayName": "Мария Жукова",
+    "lastMessage": "< См. приложение.",
+    "activeTime": "недавно",
     "messagesNumber": 0
   },
   "0010": {
     "online": false,
     "avatarSrc": "",
-    "displayName": "Мария Жукова",
-    "lastMessage": "< См. приложение.",
-    "activeTime": "11:15",
+    "displayName": "Виктор Воробьёв",
+    "lastMessage": "> Лады))",
+    "activeTime": "12 авг.",
     "messagesNumber": 0
   }
 }
