@@ -1,5 +1,7 @@
 .message-box {
+  /* border: 1px solid red; */
   display: flex;
+  jystify-content: space-around;
   flex-direction: column;
   gap: 0.2vh;
   overflow: auto;
@@ -9,14 +11,14 @@
   &__message_type_taken,
   &__message_type_sended,
   &__emoji {
-    padding: 3px;
+    padding: 5px;
   }
 
   &__time {
     width: fit-content;
     font-size: $description_font-size;
     border-radius: 8px 8px 0 0;
-    box-shadow: $drop_box-shadow;
+    /* box-shadow: $drop_box-shadow; */
   }
 
   &__message_type_taken,
@@ -24,24 +26,31 @@
     max-width: 650px;
     width: fit-content;
     font-size: $message_font-size;
-    box-shadow: $drop_box-shadow;
+    /* box-shadow: $chat-message-taken_box-shadow; */
+  }
+
+  &__message_type_taken:last-child,
+  &__message_type_sended:last-child {
+    margin-bottom: 3px;
   }
 
   &__message_type_taken {
     color: $chat-message-taken_color;
     background: $chat-message-taken_background;
     border-radius: 0 8px 8px 0;
+    box-shadow: $chat-message-taken_box-shadow;
   }
 
   &__message_type_sended {
     color: $chat-message-sended_color;
     background: $chat-message-sended_background;
     border-radius: 8px 0 0 8px;
+    box-shadow: $chat-message-sended_box-shadow;
   }
 
   &__emoji {
     width: fit-content;
     border-radius: 0 0 8px 8px;
-    box-shadow: $drop_box-shadow;
+    /* box-shadow: $drop_box-shadow; */
   }
 }

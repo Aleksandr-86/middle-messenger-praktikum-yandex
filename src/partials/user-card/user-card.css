@@ -8,7 +8,7 @@
   background: $user-card_background;
   border: 2px solid transparent;
   border-radius: 12px;
-  box-shadow: $drop_box-shadow;
+  box-shadow: $user-card_box-shadow;
   cursor: pointer;
   gap: 10px;
 

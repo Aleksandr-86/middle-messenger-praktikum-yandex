@@ -4,9 +4,9 @@
   /* width: 365px; */
   /* height: 100vh; */
   /* height: 720px; */
+  border-right: 2px solid $line_color;
   padding: 10px;
   color: $regular-text_color;
-  background: $users-board_background;
   user-select: none;
 
   &__line {
