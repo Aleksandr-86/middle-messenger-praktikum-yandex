@@ -5,6 +5,12 @@
   background-size: cover;
   border: none;
   cursor: pointer;
+
+  &:active,
+  &:active,
+  &:active {
+    transform: scale(0.9);
+  }
 }
 
 .input {

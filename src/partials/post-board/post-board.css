@@ -17,18 +17,6 @@
     background-image: url("../assets/images/icons/send.svg");
   }
 
-  &__button_attach:active,
-  &__button_emoji:active,
-  &__button_send:active {
-    transform: scale(0.9);
-  }
-
-  &__button_attach:hover,
-  &__button_emoji:hover,
-  &__button_send:hover {
-    border: 2px solid $line_color;
-  }
-
   &__input {
     width: 100%;
     margin-left: 10px;

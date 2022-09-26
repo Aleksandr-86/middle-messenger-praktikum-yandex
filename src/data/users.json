@@ -39,9 +39,7 @@
       {
         "taken": true,
         "time": "13:24",
-        "arrayMessages": [
-          "Также есть вопросы по ДК на арматуру."
-        ],
+        "arrayMessages": ["Также есть вопросы по ДК на арматуру."],
         "reaction": ""
       },
       {
@@ -114,6 +112,22 @@
     "displayName": "Ксения Евсеева",
     "lastMessage": "> 😌",
     "activeTime": "07:34",
+    "messagesNumber": 0
+  },
+  "0009": {
+    "online": false,
+    "avatarSrc": "",
+    "displayName": "Виктор Воробьёв",
+    "lastMessage": "> Лады))",
+    "activeTime": "11:15",
+    "messagesNumber": 0
+  },
+  "0010": {
+    "online": false,
+    "avatarSrc": "",
+    "displayName": "Мария Жукова",
+    "lastMessage": "< См. приложение.",
+    "activeTime": "11:15",
     "messagesNumber": 0
   }
 }
