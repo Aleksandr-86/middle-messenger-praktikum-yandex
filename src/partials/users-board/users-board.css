@@ -6,34 +6,25 @@
 
   &__control {
     display: flex;
-    justify-content: space-between;
-    height: 50px;
-    width: 484px;
+    align-items: center;
+    position: fixed;
+    top: 90px;
+    left: 10px;
+    right: 537px;
+    height: 70px;
+    width: 527px;
     margin: 12px 0 10px 0;
     font-size: $text_font-size;
     color: $last-message_color;
     border-top: 2px solid $line_color;
-    border-bottom: 2px solid $line_color;
 
-    &_filter {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+    &_button_change {
+      background-image: url("../assets/images/icons/search.svg");
     }
 
-    &_drop-down {
-      background-image: url("../assets/images/icons/arrow-down.svg");
+    &_input {
+      width: 468px;
     }
-
-    &_add-user {
-      background-image: url("../assets/images/icons/user-plus.svg");
-    }
-  }
-
-  &__input {
-    height: 50px;
-    width: 484px;
-    margin-bottom: 10px;
   }
 
   &__list {
@@ -41,7 +32,7 @@
     jystify-content: space-around;
     flex-direction: column;
     position: fixed;
-    top: 218px;
+    top: 168px;
     bottom: 10px;
     padding: 4px 0 4px 0;
     gap: 10px;

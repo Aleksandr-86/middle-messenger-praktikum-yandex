@@ -2,14 +2,9 @@
 	{{> "user-card/user-card" owner }}
 
 	<div class="users-board__control">
-		<div class="users-board__control_filter">
-			<button class="users-board__control_drop-down button"></button>
-			<img class="users-board__control_icon"/>
-		</div>
-		<button class="users-board__control_add-user button"></button>
+		<button class="users-board__control_button_change button"></button>
+		<input class="users-board__control_input input"/>
 	</div>
-
-	<input class="users-board__input input"/>
 
 	<div class="users-board__list scrollbar">
 		{{#each users}}
