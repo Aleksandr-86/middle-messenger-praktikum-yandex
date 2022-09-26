@@ -6,6 +6,12 @@
   background: $chat_background;
   background-size: cover;
 
+  &__line {
+    margin-left: 23px;
+    height: 100%;
+    border-right: 2px solid $line_color;
+  }
+
   &__chat-wrapper {
     margin-left: 10px;
     width: 100%;
@@ -20,18 +26,36 @@
     top: 102px;
     right: 0;
     bottom: 72px;
-    left: 516px;
+    left: 538px;
     padding: 10px 0 10px 0;
     border-top: 2px solid $line_color;
     border-bottom: 2px solid $line_color;
     overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 25px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $scrollbar-track_background;
+      border: 11.5px solid $chat_background;
+      border-radius: 120px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $scrollbar-thumb_background;
+      background-clip: padding-box;
+      border: 5px solid transparent;
+      border-radius: 120px;
+      box-shadow: $scrollbar-thumb_box-shadow-1, $scrollbar-thumb_box-shadow-2;
+    }
   }
 
   &__post-board {
     position: fixed;
     bottom: 0;
     right: 0;
-    left: 516px;
+    left: 538px;
     padding: 10px 10px 10px 0;
   }
 }
