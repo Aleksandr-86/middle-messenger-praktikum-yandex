@@ -1,6 +1,5 @@
 .main {
   display: flex;
-  /* jystify-content: space-between; */
   jystify-content: center;
   width: 100vw;
   height: 100vh;
@@ -8,7 +7,6 @@
   background-size: cover;
 
   &__chat-wrapper {
-    /* background: pink; */
     margin-left: 10px;
     width: 100%;
   }
@@ -22,7 +20,8 @@
     top: 102px;
     right: 0;
     bottom: 72px;
-    left: 514px;
+    left: 516px;
+    padding: 10px 0 10px 0;
     border-top: 2px solid $line_color;
     border-bottom: 2px solid $line_color;
     overflow: auto;
@@ -32,7 +31,7 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    left: 514px;
+    left: 516px;
     padding: 10px 10px 10px 0;
   }
 }

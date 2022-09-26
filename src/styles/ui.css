@@ -42,5 +42,5 @@
   color: $chat-message-sended_color;
   background: $chat-message-sended_background;
   box-shadow: $chat-message-sended_box-shadow;
-  margin-right: 7px;
+  margin-right: 10px;
 }

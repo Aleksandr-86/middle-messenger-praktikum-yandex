@@ -8,10 +8,12 @@
   &__control {
     display: flex;
     justify-content: space-between;
+    height: 50px;
+    margin: 12px 0 10px 0;
     font-size: $text_font-size;
     color: $last-message_color;
-    margin: 10px 0 10px 0;
-    height: 50px;
+    border-top: 2px solid $line_color;
+    border-bottom: 2px solid $line_color;
 
     &_filter {
       display: flex;
