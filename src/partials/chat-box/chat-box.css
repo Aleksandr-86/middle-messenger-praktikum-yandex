@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  overflow: auto;
-  overflow-wrap: break-word;
+  /* overflow: auto; */
+  /* overflow-wrap: break-word; */
 }
