@@ -1,9 +1,19 @@
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
 .input {
   height: 50px;
+  padding: 10px;
   font-family: "GolosTextWebRegular";
   font-size: $text_font-size;
   border: none;
-  border-radius: 3px;
+  border-radius: 12px;
   background: $input_background;
   box-shadow: $inner_box-shadow;
   outline: none;
@@ -31,4 +41,5 @@
   color: $chat-message-sended_color;
   background: $chat-message-sended_background;
   box-shadow: $chat-message-sended_box-shadow;
+  margin-right: 3px;
 }

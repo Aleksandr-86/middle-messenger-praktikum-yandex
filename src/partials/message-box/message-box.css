@@ -25,7 +25,7 @@
 
   &__message_type_taken,
   &__message_type_sended {
-    max-width: 650px;
+    max-width: 75%;
     width: fit-content;
     font-size: $message_font-size;
   }

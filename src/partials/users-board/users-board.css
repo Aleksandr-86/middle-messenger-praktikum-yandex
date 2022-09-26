@@ -1,24 +1,19 @@
 .users-board {
-  display: flex;
-  flex-direction: column;
-  /* width: 365px; */
-  /* height: 100vh; */
-  /* height: 720px; */
+  /* display: flex; */
+  /* flex-direction: column; */
   border-right: 2px solid $line_color;
   padding: 10px;
   color: $regular-text_color;
   user-select: none;
-
-  &__line {
-    margin: 10px 0 0px 0;
-  }
+  gap: 10px;
 
   &__control {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 5px; */
-    margin: 3px 0 4px 0;
-    height: 30px;
+    font-size: $text_font-size;
+    color: $last-message_color;
+    margin: 10px 0 10px 0;
+    height: 50px;
 
     &_filter {
       display: flex;
@@ -26,18 +21,9 @@
       align-items: center;
     }
 
-    &_drop-down,
-    &_add-user {
-      width: 30px;
-      height: 30px;
-      background-color: transparent;
-      background-size: cover;
-      border: none;
-      cursor: pointer;
-
-      &:active {
-        transform: scale(0.9);
-      }
+    &_drop-down:active,
+    &_add-user:active {
+      transform: scale(0.9);
     }
 
     &_drop-down {
@@ -50,8 +36,9 @@
   }
 
   &__input {
+    height: 50px;
+    width: 100%;
     margin-bottom: 10px;
-    padding: 0 10px 0 10px;
   }
 
   &__list {

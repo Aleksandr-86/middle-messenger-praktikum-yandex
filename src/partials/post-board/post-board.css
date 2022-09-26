@@ -1,0 +1,13 @@
+.post-board {
+  &__button_attach {
+    background-image: url("../assets/images/icons/paper-clip.svg");
+  }
+
+  &__button_emoji {
+    background-image: url("../assets/images/icons/emoji.svg");
+  }
+
+  &__button_send {
+    background-image: url("../assets/images/icons/send.svg");
+  }
+}

@@ -3,8 +3,6 @@
 <main class="main">
 	{{> users-board/users-board }}
 
-	{{!-- <div class="main__line_vertical"></div> --}}
-
 	<div class="main__chat-wrapper">
 		<div class="main__selected-chats"> {{> selected-chats/selected-chats }} </div>
 		<div class="main__line_horizontal_1"></div>
@@ -15,5 +13,7 @@
 		</div>
 
 		<div class="main__line_horizontal_2"></div>
+
+		{{> post-board/post-board }}
 	</div>
 </main>
