@@ -16,13 +16,13 @@
   }
 
   &__title {
-    /* margin-bottom: -10px; */
     font-size: $title_font-size;
     text-align: center;
     color: $input_color;
   }
 
   &__warning {
+    margin-top: -10px;
     font-size: $description_font-size;
     color: hsl(0, 70%, 50%);
   }
