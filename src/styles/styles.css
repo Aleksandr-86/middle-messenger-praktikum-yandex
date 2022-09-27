@@ -6,6 +6,7 @@
 
 /* Страницы */
 @import "../pages/main.css";
+@import "../pages/sign-in.css";
 
 /* Компоненты */
 @import "../partials/chat-box/chat-box.css";
