@@ -43,7 +43,7 @@ body {
   width: 100vw;
   height: 100vh;
   gap: 0.4vh;
-  background: linear-gradient(135deg, hsl(240, 90%, 61%), hsl(0, 90%, 55%));
+  background: $initial_background;
   user-select: none;
 
   &__name {

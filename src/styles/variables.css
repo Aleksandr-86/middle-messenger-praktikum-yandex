@@ -5,6 +5,11 @@ $text_font-size: 24px;
 $description_font-size: 16px;
 
 /* Основные */
+$initial_background: linear-gradient(
+  135deg,
+  hsl(240, 90%, 61%),
+  hsl(0, 90%, 55%)
+);
 $regular-text_color: hsl(51, 80%, 70%);
 $line_color: hsl(303, 72%, 22%);
 $line_background: hsl(303, 72%, 22%);
