@@ -48,8 +48,13 @@ body {
   user-select: none;
 
   &__name {
+    color: $input_color;
     font-size: 2.58vw;
     font-weight: bold;
+  }
+
+  &__description {
+    color: $input_color;
   }
 
   &__description,
@@ -60,6 +65,6 @@ body {
 
   &__link {
     text-decoration: none;
-    color: blue;
+    color: hsl(180, 55%, 45%);
   }
 }

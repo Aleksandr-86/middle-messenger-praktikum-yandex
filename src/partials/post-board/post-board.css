@@ -2,14 +2,22 @@
   display: flex;
   flex-direction: row;
 
+  &__button_attach:active,
+  &__button_emoji:active,
+  &__button_send:active {
+    transform: scale(0.9);
+  }
+
   &__button_attach {
-    border: 2px solid transparent;
     background-image: url("../assets/images/icons/paper-clip.svg");
+    border: 2px solid transparent;
+    cursor: pointer;
   }
 
   &__button_emoji {
-    border: 2px solid transparent;
     background-image: url("../assets/images/icons/emoji.svg");
+    border: 2px solid transparent;
+    cursor: pointer;
   }
 
   &__button_send {

@@ -5,20 +5,56 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  gap: 0.4vh;
+  gap: 10px;
   background: $initial_background;
   user-select: none;
 
+  &__title,
+  &__input,
+  &__button_sign-in,
+  &__button_sign-up {
+    width: 350px;
+  }
+
   &__title {
+    height: 50px;
+    /* padding-bottom: 10px; */
     font-size: $title_font-size;
+    text-align: center;
+    color: $input_color;
     border-bottom: 2px solid $line_color;
   }
 
   &__input {
-		background-color: hsl(303, 90%, 40%);
+    /* margin-top: 10px; */
   }
 
-  &__button {
-    font-size: text_font-size;
+  &__image_login {
+    background-image: url("../assets/images/icons/search.svg");
   }
+
+  &__button_sign-in,
+  &__button_sign-up {
+    height: 50px;
+    font-family: "GolosTextWebRegular";
+    font-size: $text_font-size;
+    background: $scrollbar-thumb_background;
+    box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__button_sign-in:active,
+  &__button_sign-up:active {
+    transform: scale(0.98);
+    box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
+    border-radius: 12px;
+  }
+
+  &__button_sign-in {
+  }
+}
+
+.img {
 }

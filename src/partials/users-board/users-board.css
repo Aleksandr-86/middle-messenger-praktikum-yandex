@@ -20,6 +20,11 @@
 
     &_button_change {
       background-image: url("../assets/images/icons/search.svg");
+      cursor: pointer;
+    }
+
+    &_button_change:active {
+      transform: scale(0.9);
     }
 
     &_input {
