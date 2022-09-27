@@ -17,6 +17,11 @@
   border-radius: 12px;
   box-shadow: $inner_box-shadow;
   outline: none;
+
+  &::selection {
+    background: hsl(303, 50%, 70%);
+    color: hsl(303, 10%, 15%);
+  }
 }
 
 .scrollbar {

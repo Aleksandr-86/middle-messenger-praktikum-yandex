@@ -2,11 +2,20 @@
 
 <div class="sign-in">
   <div class="sign-in__title">Вход</div>
-  <div>
-    <button class="sign-in__image_login svg"></button>
-    <input class="sign-in__input input" name="login" type="text" />
-  </div>
-  <input class="sign-in__input input" name="password" type="password" />
+  <div class="sign-in__warning">неверный логин или пароль</div>
+
+  <form method="get" action="./main.hbs" class="sign-in__form">
+    <div class="sign-in__wrapper_in">
+      <button class="sign-in__icon_sign-in svg"></button>
+      <input class="sign-in__input_in input" name="login" type="text" />
+    </div>
+
+    <div class="sign-in__wrapper_up">
+      <button class="sign-in__icon_sign-up svg"></button>
+      <input class="sign-in__input_up input" name="password" type="password" />
+    </div>
+  </form>
+
   <button class="sign-in__button_sign-in">Войти</button>
   <button class="sign-in__button_sign-up">Зарегистрироваться</button>
 </div>

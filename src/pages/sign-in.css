@@ -10,27 +10,50 @@
   user-select: none;
 
   &__title,
-  &__input,
   &__button_sign-in,
   &__button_sign-up {
-    width: 350px;
+    width: 400px;
   }
 
   &__title {
-    height: 50px;
-    /* padding-bottom: 10px; */
+    /* margin-bottom: -10px; */
     font-size: $title_font-size;
     text-align: center;
     color: $input_color;
+  }
+
+  &__warning {
+    font-size: $description_font-size;
+    color: hsl(0, 70%, 50%);
+  }
+
+  &__wrapper_in {
+    display: flex;
+    padding-top: 10px;
+    border-top: 2px solid $line_color;
+  }
+
+  &__wrapper_up {
+    display: flex;
+    padding-bottom: 10px;
     border-bottom: 2px solid $line_color;
   }
 
-  &__input {
-    /* margin-top: 10px; */
+  &__icon_sign-in {
+    background-image: url("../assets/images/icons/user.svg");
   }
 
-  &__image_login {
-    background-image: url("../assets/images/icons/search.svg");
+  &__icon_sign-up {
+    background-image: url("../assets/images/icons/lock.svg");
+  }
+
+  &__input_in,
+  &__input_up {
+    width: 350px;
+  }
+
+  &__input_in {
+    margin-bottom: 10px;
   }
 
   &__button_sign-in,
@@ -38,6 +61,7 @@
     height: 50px;
     font-family: "GolosTextWebRegular";
     font-size: $text_font-size;
+    color: $input_color;
     background: $scrollbar-thumb_background;
     box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
     border-radius: 12px;
@@ -49,12 +73,5 @@
   &__button_sign-up:active {
     transform: scale(0.98);
     box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
-    border-radius: 12px;
   }
-
-  &__button_sign-in {
-  }
-}
-
-.img {
 }
