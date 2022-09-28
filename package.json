@@ -4,7 +4,7 @@
   "description": "simple chat",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/pages/chat.hbs --no-cache",
+    "dev": "parcel src/pages/desktop.hbs --no-cache",
     "start": "parcel build src/pages/*.hbs"
   },
   "author": "Александр К.",
@@ -19,5 +19,8 @@
     "postcss-import": "^15.0.0",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }

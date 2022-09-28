@@ -1,12 +1,9 @@
-import hbs from '@anikin/parcel-transformer-handlebars';
-import page404 from './pages/404.tmp';
+const express = require("express");
+const app = express();
+const port = 3000;
 
-const data = {
-  name: 'Aleks'
-};
+app.use(express.static(dist));
 
-const renderFunction = hbs.compile(page404);
-const html = renderFunction(data);
-
-const rootNode = document.querySelector('#root');
-rootNode.innerHTML = html;
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
