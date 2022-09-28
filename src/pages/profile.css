@@ -1,0 +1,83 @@
+@keyframes scale {
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 8px;
+  background: $initial_background;
+  user-select: none;
+
+  &__avatar {
+    width: 250px;
+    height: 250px;
+    transform-origin: top center;
+    transition: transform 0.4s linear;
+  }
+
+  &__avatar:hover {
+    transform: scale(2.5);
+    transform-origin: top center;
+    transition: transform 0.4s linear;
+  }
+
+  &__button,
+  &__input_wrapper {
+    width: 400px;
+  }
+
+  &__warning {
+    font-size: $description_font-size;
+    color: hsl(0, 70%, 50%);
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0 10px 0;
+    gap: 5px;
+  }
+
+  &__input_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description {
+    color: $input_color;
+    font-size: $description_font-size;
+    margin: 0 0 5px 8px;
+  }
+
+  &__input_wrapper_last {
+    border-bottom: 2px solid $line_color;
+    margin-bottom: 10px;
+    padding-bottom: 11px;
+  }
+
+  &__button {
+    height: 50px;
+    font-family: "GolosTextWebRegular";
+    font-size: $text_font-size;
+    color: $input_color;
+    background: $scrollbar-thumb_background;
+    box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  &__button:active {
+    transform: scale(0.98);
+    box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
+  }
+
+  &__button:focus {
+    outline: 1px solid red;
+    outline-style: solid;
+  }
+}
