@@ -11,7 +11,6 @@ https://www.figma.com/file/Q9deLsYNOyxQYDvkhhnaS4/Chat?node-id=10%3A2
 **npm run start** - сборка и запуск сервера для работы
 
 **Структура:**  
-Папки: 
 - assets: изображения и svg иконки;
 - data: данные о владельце, пользователях и выбранных чатах;
 - fonts: шрифт;
