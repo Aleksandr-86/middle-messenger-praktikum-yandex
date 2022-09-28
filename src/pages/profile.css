@@ -1,16 +1,18 @@
-.sign-in {
+.sign-up {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  gap: 10px;
+  gap: 8px;
   background: $initial_background;
   user-select: none;
 
   &__title,
-  &__button {
+  &__button_sign-up,
+  &__button_sign-up,
+  &__input_wrapper {
     width: 400px;
   }
 
@@ -21,40 +23,37 @@
   }
 
   &__warning {
-    margin-top: -10px;
     font-size: $description_font-size;
     color: hsl(0, 70%, 50%);
   }
 
-  &__wrapper_user {
+  &__form {
     display: flex;
-    padding-top: 10px;
+    flex-direction: column;
+    padding: 3px 0 10px 0;
+    gap: 5px;
     border-top: 2px solid $line_color;
   }
 
-  &__wrapper_password {
+  &__input_wrapper {
     display: flex;
-    padding-bottom: 10px;
+    flex-direction: column;
+  }
+
+  &__description {
+    color: $input_color;
+    font-size: $description_font-size;
+    margin: 0 0 5px 8px;
+  }
+
+  &__input_wrapper_last {
     border-bottom: 2px solid $line_color;
-  }
-
-  &__input {
-    width: 350px;
-  }
-
-  &__input_margin_bottom {
     margin-bottom: 10px;
+    padding-bottom: 11px;
   }
 
-  &__icon_user {
-    background-image: url("../assets/images/icons/user.svg");
-  }
-
-  &__icon_password {
-    background-image: url("../assets/images/icons/lock.svg");
-  }
-
-  &__button {
+  &__button_sign-up,
+  &__button_sign-up {
     height: 50px;
     font-family: "GolosTextWebRegular";
     font-size: $text_font-size;
@@ -66,16 +65,14 @@
     cursor: pointer;
   }
 
-  &__button_margin_top {
-    margin-top: 10px;
-  }
-
-  &__button:active {
+  &__button_sign-up:active,
+  &__button_sign-up:active {
     transform: scale(0.98);
     box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
   }
 
-  &__button:focus {
+  &__button_sign-up:focus,
+  &__button_sign-up:focus {
     outline: 1px solid red;
     outline-style: solid;
   }
