@@ -65,7 +65,7 @@
     background: $scrollbar-thumb_background;
     box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
     border-radius: 12px;
-    border: none;
+    border-style: none;
     cursor: pointer;
   }
 
@@ -73,5 +73,10 @@
   &__button_sign-up:active {
     transform: scale(0.98);
     box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
+  }
+
+  &__button_sign-in:focus,
+  &__button_sign-up:focus {
+    outline: 1px solid red;
   }
 }

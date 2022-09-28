@@ -1,6 +1,5 @@
 .users-board {
   padding: 10px 10px 0 10px;
-  color: $regular-text_color;
   user-select: none;
   gap: 10px;
 
