@@ -10,8 +10,7 @@
   user-select: none;
 
   &__title,
-  &__button_sign-up,
-  &__button_sign-up,
+  &__button,
   &__input_wrapper {
     width: 400px;
   }
@@ -52,8 +51,7 @@
     padding-bottom: 11px;
   }
 
-  &__button_sign-up,
-  &__button_sign-up {
+  &__button {
     height: 50px;
     font-family: "GolosTextWebRegular";
     font-size: $text_font-size;
@@ -65,14 +63,12 @@
     cursor: pointer;
   }
 
-  &__button_sign-up:active,
-  &__button_sign-up:active {
+  &__button:active {
     transform: scale(0.98);
     box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
   }
 
-  &__button_sign-up:focus,
-  &__button_sign-up:focus {
+  &__button:focus {
     outline: 1px solid red;
     outline-style: solid;
   }

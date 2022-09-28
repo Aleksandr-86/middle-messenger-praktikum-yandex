@@ -4,7 +4,7 @@
   "description": "simple chat",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/pages/sign-in.hbs --no-cache",
+    "dev": "parcel src/pages/sign-up.hbs --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
