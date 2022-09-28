@@ -1,4 +1,4 @@
-.sign-in {
+.sign-up {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +10,9 @@
   user-select: none;
 
   &__title,
-  &__button_sign-in,
-  &__button_sign-up {
+  &__button_sign-up,
+  &__button_sign-up,
+  &__input_wrapper {
     width: 400px;
   }
 
@@ -22,41 +23,34 @@
   }
 
   &__warning {
-    margin-top: -10px;
+    /* -top: -20px; */
     font-size: $description_font-size;
     color: hsl(0, 70%, 50%);
   }
 
-  &__wrapper_user {
+  &__form {
     display: flex;
-    padding-top: 10px;
+    flex-direction: column;
+    /* jystify-content: space-around; */
+    padding: 3px 0 10px 0;
+    gap: 5px;
     border-top: 2px solid $line_color;
-  }
-
-  &__wrapper_lock {
-    display: flex;
-    padding-bottom: 10px;
     border-bottom: 2px solid $line_color;
   }
 
-  &__icon_user {
-    background-image: url("../assets/images/icons/user.svg");
+  &__input_wrapper {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 5px; */
   }
 
-  &__icon_lock {
-    background-image: url("../assets/images/icons/lock.svg");
+  &__description {
+    color: $input_color;
+    font-size: $description_font-size;
+    margin: 0 0 5px 8px;
   }
 
-  &__input_user,
-  &__input_lock {
-    width: 350px;
-  }
-
-  &__input_user {
-    margin-bottom: 10px;
-  }
-
-  &__button_sign-in,
+  &__button_sign-up,
   &__button_sign-up {
     height: 50px;
     font-family: "GolosTextWebRegular";
@@ -69,13 +63,13 @@
     cursor: pointer;
   }
 
-  &__button_sign-in:active,
+  &__button_sign-up:active,
   &__button_sign-up:active {
     transform: scale(0.98);
     box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
   }
 
-  &__button_sign-in:focus,
+  &__button_sign-up:focus,
   &__button_sign-up:focus {
     outline: 1px solid red;
     outline-style: solid;

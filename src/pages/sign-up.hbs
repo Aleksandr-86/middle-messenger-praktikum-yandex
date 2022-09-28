@@ -1,0 +1,55 @@
+{{!< desktop }}
+
+<div class="sign-up">
+  <div class="sign-up__title">Регистрация</div>
+  {{! <div class="sign-up__warning">неверный логин или пароль</div> }}
+
+  <form action="./main.hbs" method="get" class="sign-up__form">
+    <div class="sign-up__input_wrapper">
+      <label for="login" class="sign-up__description">Логин</label>
+      <input class="sign-up__input input" name="login" type="text" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Имя</label>
+      <input class="sign-up__input input" name="first_name" type="text" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Фамилия</label>
+      <input class="sign-up__input input" name="second_name" type="text" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Отображаемое имя</label>
+      <input class="sign-up__input input" name="display_name" type="text" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Номер телефона</label>
+      <input class="sign-up__input input" name="phone" type="tel" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Почта</label>
+      <input class="sign-up__input input" name="email" type="email" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Пароль</label>
+      <input class="sign-up__input input" name="password" type="password" />
+    </div>
+
+    <div class="sign-up__input_wrapper">
+      <label class="sign-up__description">Пароль (повторно)</label>
+      <input
+        class="sign-up__input input"
+        name="password_again"
+        type="password"
+      />
+    </div>
+  </form>
+
+  <button class="sign-up__button_sign-up">Зарегистрироваться</button>
+  <button class="sign-up__button_sign-up">Войти</button>
+</div>

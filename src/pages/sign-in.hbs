@@ -4,18 +4,28 @@
   <div class="sign-in__title">Вход</div>
   <div class="sign-in__warning">неверный логин или пароль</div>
 
-  <form method="get" action="./main.hbs" class="sign-in__form">
-    <div class="sign-in__wrapper_in">
-      <button class="sign-in__icon_sign-in svg" tabindex="-1"></button>
-      <input class="sign-in__input_in input" name="login" type="text" />
+  <form name="form1" action="./main.hbs" method="get" class="sign-in__form">
+    <div class="sign-in__wrapper_user">
+      <label for="login" class="sign-in__icon_user svg"></label>
+      <input name="login" type="text" class="sign-in__input_user input" />
     </div>
 
-    <div class="sign-in__wrapper_up">
-      <button class="sign-in__icon_sign-up svg" tabindex="-1"></button>
-      <input class="sign-in__input_up input" name="password" type="password" />
+    <div class="sign-in__wrapper_lock">
+      <label for="password" class="sign-in__icon_lock svg"></label>
+      <input
+        name="password"
+        type="password"
+        class="sign-in__input_lock input"
+      />
     </div>
   </form>
 
-  <button class="sign-in__button_sign-in">Войти</button>
+  <input
+    type="submit"
+    form="form1"
+    value="Войти"
+    class="sign-in__button_sign-in"
+  />
+  {{! <button type="submit" class="sign-in__button_in">Войти</button> }}
   <button class="sign-in__button_sign-up">Зарегистрироваться</button>
 </div>

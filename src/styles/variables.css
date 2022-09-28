@@ -29,7 +29,6 @@ $input_box-shadow: inset 2px 2px 4px hsla(0, 0%, 0%, 0.55);
 $scrollbar-track_background: $line_color;
 $scrollbar-thumb_background: hsl(303, 20%, 22%);
 
-
 /* Чат */
 $chat_background: hsl(303, 46%, 5%);
 
