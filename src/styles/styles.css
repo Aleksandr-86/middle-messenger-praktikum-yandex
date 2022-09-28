@@ -35,7 +35,7 @@
 
 body {
   font-family: "GolosTextWebRegular";
-  overflow: hidden;
+  /* overflow: auto; */
 }
 
 .error {
