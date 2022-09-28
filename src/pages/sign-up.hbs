@@ -4,52 +4,53 @@
   <div class="sign-up__title">Регистрация</div>
   {{! <div class="sign-up__warning">неверный логин или пароль</div> }}
 
-  <form action="./main.hbs" method="get" class="sign-up__form">
+  <form name="form2" action="./main.hbs" method="get" class="sign-up__form">
     <div class="sign-up__input_wrapper">
       <label for="login" class="sign-up__description">Логин</label>
-      <input class="sign-up__input input" name="login" type="text" />
+      <input name="login" type="text" class="sign-up__input input" />
     </div>
 
     <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Имя</label>
-      <input class="sign-up__input input" name="first_name" type="text" />
+      <label for="first_name" class="sign-up__description">Имя</label>
+      <input name="first_name" type="text" class="sign-up__input input" />
     </div>
 
     <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Фамилия</label>
-      <input class="sign-up__input input" name="second_name" type="text" />
+      <label for="second_name" class="sign-up__description">Фамилия</label>
+      <input name="second_name" type="text" class="sign-up__input input" />
     </div>
 
     <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Отображаемое имя</label>
-      <input class="sign-up__input input" name="display_name" type="text" />
+      <label for="display_name" class="sign-up__description">Отображаемое имя</label>
+      <input name="display_name" type="text" class="sign-up__input input" />
     </div>
 
     <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Номер телефона</label>
-      <input class="sign-up__input input" name="phone" type="tel" />
+      <label for="phone" class="sign-up__description">Номер телефона</label>
+      <input name="phone" type="tel" class="sign-up__input input" />
     </div>
 
     <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Почта</label>
-      <input class="sign-up__input input" name="email" type="email" />
+      <label for="email" class="sign-up__description">Почта</label>
+      <input name="email" type="email" class="sign-up__input input" />
     </div>
 
     <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Пароль</label>
-      <input class="sign-up__input input" name="password" type="password" />
+      <label for="password" class="sign-up__description">Пароль</label>
+      <input name="password" type="password" class="sign-up__input input" />
     </div>
 
-    <div class="sign-up__input_wrapper">
-      <label class="sign-up__description">Пароль (повторно)</label>
+    <div class="sign-up__input_wrapper sign-up__input_wrapper_last">
+      <label for="password_again" class="sign-up__description">Пароль (повторно)</label>
       <input
-        class="sign-up__input input"
         name="password_again"
         type="password"
+        class="sign-up__input input"
       />
     </div>
+
+    <button class="sign-up__button_sign-up">Зарегистрироваться</button>
   </form>
 
-  <button class="sign-up__button_sign-up">Зарегистрироваться</button>
   <button class="sign-up__button_sign-up">Войти</button>
 </div>

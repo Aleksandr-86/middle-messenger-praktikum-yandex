@@ -43,12 +43,12 @@
     background-image: url("../assets/images/icons/user.svg");
   }
 
-  &__icon_lock {
+  &__icon_password {
     background-image: url("../assets/images/icons/lock.svg");
   }
 
   &__input_user,
-  &__input_lock {
+  &__input_password {
     width: 350px;
   }
 
@@ -67,6 +67,10 @@
     border-radius: 12px;
     border-style: none;
     cursor: pointer;
+  }
+
+  &__button_sign-in {
+    margin-top: 10px;
   }
 
   &__button_sign-in:active,
