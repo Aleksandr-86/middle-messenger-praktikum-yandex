@@ -4,7 +4,7 @@
   "description": "simple chat",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/pages/desktop.hbs --no-cache",
+    "dev": "parcel src/pages/*.hbs",
     "start": "parcel build src/pages/*.hbs"
   },
   "author": "Александр К.",

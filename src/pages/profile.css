@@ -43,7 +43,6 @@
   &__form {
     display: flex;
     flex-direction: column;
-    /* padding: 3px 0 10px 0; */
     gap: 5px;
   }
 
