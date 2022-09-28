@@ -1,14 +1,9 @@
 {{!< desktop }}
 
 <div class="profile">
+  <button name="avatar" class="profile__avatar"></button>
 
-  <img
-    src="../assets/images/avatars/owner.png"
-    alt="avatar"
-    class="profile__avatar"
-  />
-
-  <form name="form4" action="./main.hbs" method="get" class="profile__form">
+  <form name="form3" action="./main.hbs" method="get" class="profile__form">
     <div class="profile__input_wrapper">
       <label for="login" class="profile__description">Логин</label>
       <input name="login" type="text" class="profile__input input" />
@@ -42,6 +37,6 @@
     <button class="profile__button">Изменить данные</button>
   </form>
 
-  <button class="profile__button">Изменить пароль</button>
-  <button class="profile__button">Вернуться назад</button>
+  <button class="profile__button profile__button_margin_top">Изменить пароль</button>
+  <button class="profile__button profile__button_margin_top">Вернуться назад</button>
 </div>

@@ -5,6 +5,7 @@
 @import "./ui.css";
 
 /* Страницы */
+@import "../pages/change-password.css";
 @import "../pages/chat.css";
 @import "../pages/profile.css";
 @import "../pages/sign-in.css";
