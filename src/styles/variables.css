@@ -48,7 +48,7 @@ $user-card_border-color: hsl(303, 100%, 40%);
 $online_background: hsl(120, 70%, 45%);
 $offline_background: hsl(360, 70%, 45%);
 
-$display-name_color: hsl(303, 50%, 70%);
+$display-name_color: $input_color;
 $last-message_color: hsl(32, 45%, 54%);
 
 $overall-info_color: hsl(303, 90%, 80%);
