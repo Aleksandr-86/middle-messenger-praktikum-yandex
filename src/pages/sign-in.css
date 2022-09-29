@@ -14,7 +14,7 @@
   user-select: none;
 
   &__title,
-  &__button {
+  &__link {
     width: 400px;
   }
 
@@ -56,35 +56,5 @@
 
   &__icon_password {
     background-image: url("../assets/images/icons/lock.svg");
-  }
-
-  &__button {
-    height: 50px;
-    line-height: 50px;
-    font-family: "GolosTextWebRegular";
-    font-size: $text_font-size;
-    text-align: center;
-    text-decoration: none;
-    color: $input_color;
-    background: $scrollbar-thumb_background;
-    box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
-    border-radius: 12px;
-    border-style: none;
-    appearance: button;
-    cursor: pointer;
-  }
-
-  &__button_margin_top {
-    margin-top: 10px;
-  }
-
-  &__button:active {
-    transform: scale(0.98);
-    box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
-  }
-
-  &__button:focus {
-    outline: 1px solid red;
-    outline-style: solid;
   }
 }

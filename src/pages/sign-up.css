@@ -14,7 +14,7 @@
   user-select: none;
 
   &__title,
-  &__button,
+  &__link,
   &__input_wrapper {
     width: 400px;
   }
@@ -53,27 +53,5 @@
     border-bottom: 2px solid $line_color;
     margin-bottom: 10px;
     padding-bottom: 11px;
-  }
-
-  &__button {
-    height: 50px;
-    font-family: "GolosTextWebRegular";
-    font-size: $text_font-size;
-    color: $input_color;
-    background: $scrollbar-thumb_background;
-    box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
-    border-radius: 12px;
-    border-style: none;
-    cursor: pointer;
-  }
-
-  &__button:active {
-    transform: scale(0.98);
-    box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
-  }
-
-  &__button:focus {
-    outline: 1px solid red;
-    outline-style: solid;
   }
 }

@@ -1,9 +1,27 @@
-.svg {
-  width: 50px;
+.link {
   height: 50px;
-  background-color: transparent;
-  background-size: cover;
+  line-height: 50px;
+  font-family: "GolosTextWebRegular";
+  font-size: $text_font-size;
+  text-align: center;
+  text-decoration: none;
+  color: $input_color;
+  background: $scrollbar-thumb_background;
+  box-shadow: $box-shadow-1, $box-shadow-2, $box-shadow-3;
+  border-radius: 12px;
   border-style: none;
+  appearance: button;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+    box-shadow: $box-shadow-4, $box-shadow-5, $box-shadow-6;
+  }
+
+  &:focus {
+    outline: 1px solid red;
+    outline-style: solid;
+  }
 }
 
 .input {
@@ -47,28 +65,10 @@
   }
 }
 
-.online {
-  background: $online_background;
-}
-
-.offline {
-  background: $offline_background;
-}
-
-.flex-align_right {
-  align-items: flex-end;
-}
-
-.taken {
-  margin-left: 8px;
-  color: $chat-message-taken_color;
-  background: $chat-message-taken_background;
-  box-shadow: $chat-message-taken_box-shadow;
-}
-
-.sended {
-  margin-right: 4px;
-  color: $chat-message-sended_color;
-  background: $chat-message-sended_background;
-  box-shadow: $chat-message-sended_box-shadow;
+.svg {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  background-size: cover;
+  border-style: none;
 }
