@@ -6,6 +6,10 @@
   background: $chat_background;
   background-size: cover;
 
+  &__link {
+    text-decoration: none;
+  }
+
   &__line {
     margin-left: 23px;
     height: 100%;

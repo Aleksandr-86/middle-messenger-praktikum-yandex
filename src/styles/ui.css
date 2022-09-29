@@ -1,5 +1,6 @@
 .button-link {
   height: 50px;
+  width: 100%;
   line-height: 50px;
   font-family: "GolosTextWebRegular";
   font-size: $text_font-size;
