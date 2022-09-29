@@ -7,6 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/pages/chat.hbs",
     "dev2": "parcel src/chat/index.hbs --port 3000 --no-cache",
+    "dev3": "parcel index.html -p 3000 --no-cache",
+    "dev4": "parcel src/layouts/desktop.hbs -p 3000 --no-cache",
     "start": "parcel build src/pages/*.hbs",
     "start2": "node ./server.js"
   },
