@@ -46,8 +46,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: $initial_background;
-  gap: 5px;
-  /* overflow: hidden; */
+  gap: 10px;
 
   &__link {
     width: 400px;

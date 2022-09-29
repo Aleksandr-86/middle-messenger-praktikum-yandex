@@ -33,7 +33,7 @@
   &__form {
     display: flex;
     flex-direction: column;
-    padding: 3px 0 10px 0;
+    padding-bottom: 3px;
     gap: 5px;
     border-top: 2px solid $line_color;
   }
