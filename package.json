@@ -2,15 +2,11 @@
   "name": "middle.messenger.praktikum.yandex",
   "version": "0.0.1",
   "description": "simple chat",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/pages/chat.hbs",
-    "dev2": "parcel src/chat/index.hbs --port 3000 --no-cache",
-    "dev3": "parcel index.html -p 3000 --no-cache",
-    "dev4": "parcel src/layouts/desktop.hbs -p 3000 --no-cache",
-    "start": "parcel build src/pages/*.hbs",
-    "start2": "node ./server.js"
+    "dev": "parcel src/pages/*.hbs --port 3000 --no-cache",
+    "build": "parcel build src/pages/*.hbs",
+    "start": "npm run build && node server.js"
   },
   "author": "Александр К.",
   "license": "ISC",
