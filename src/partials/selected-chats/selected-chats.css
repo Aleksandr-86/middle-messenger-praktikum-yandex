@@ -8,6 +8,7 @@
     border: 2px solid transparent;
     border-radius: 50%;
     user-select: none;
+    transform: scale(1);
     transition: transform 0.1ms linear;
     cursor: pointer;
 
