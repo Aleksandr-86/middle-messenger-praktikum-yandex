@@ -1,9 +1,13 @@
-const express = require("express");
-const port = 3000;
+const express = require('express');
+const PORT = process.env.PORT || 3000;
 const app = express();
 
-app.use(express.static(__dirname + "/dist"));
+app.use(express.static(__dirname + '/dist'));
 
-app.listen(port, () => {
-  console.log(`Приложение слушает порт: ${port}`);
+app.get('*', (_, res) => {
+  res.sendFile(__dirname + '/dist/index.html');
+});
+
+app.listen(PORT, () => {
+  console.log(`Приложение слушает порт: ${PORT}`);
 });

@@ -1,27 +1,35 @@
 {
   "name": "middle.messenger.praktikum.yandex",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "simple chat",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/pages/*.hbs --port 3000 --no-cache",
-    "build": "parcel build src/pages/*.hbs",
-    "start": "npm run build && node server.js"
+    "eslint": "eslint . --ext .js,.ts",
+    "eslint:fix": "eslint . --fix --ext .js,.ts",
+    "style": "stylelint **/*.css",
+    "dev": "parcel src/index.html --port 3000 --no-cache",
+    "build": "parcel build src/index.html",
+    "serv": "npm run build"
   },
   "author": "Александр К.",
   "license": "ISC",
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.9",
-    "parcel": "^2.7.0",
-    "postcss": "^8.4.16",
-    "postcss-import": "^15.0.0",
-    "postcss-nested": "^5.0.6",
-    "postcss-simple-vars": "^7.0.0"
+    "@anikin/parcel-transformer-handlebars": "1.0.9",
+    "@anikin/parcel-transformer-handlebars-precompile": "1.0.1",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "@typescript-eslint/parser": "5.39.0",
+    "eslint": "8.24.0",
+    "nanoid": "4.0.0",
+    "parcel": "2.7.0",
+    "postcss": "8.4.16",
+    "postcss-import": "15.0.0",
+    "postcss-nested": "5.0.6",
+    "postcss-simple-vars": "7.0.0",
+    "stylelint": "14.13.0",
+    "stylelint-config-standard": "28.0.0",
+    "typescript": "4.8.4"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "4.18.1"
   }
 }
