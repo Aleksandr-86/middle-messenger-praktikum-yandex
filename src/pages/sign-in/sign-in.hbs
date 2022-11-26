@@ -1,0 +1,43 @@
+<div class="sign-in">
+  <h1 class="sign-in__title">Вход</h1>
+  <div class="sign-in__warning"></div>
+
+  <form name="form" action="/chat" method="get" class="sign-in__form">
+    <div class="sign-in__wrapper_user">
+      <label for="login" class="sign-in__icon_user svg"></label>
+      {{{Input
+        name="login"
+        type="text"
+        class="sign-in__input sign-in__input_margin_bottom input"
+        autocomplete="username"
+        onFocus=onFocus
+        onBlur=onBlur
+      }}}
+    </div>
+
+    <div class="sign-in__wrapper_password">
+      <label for="password" class="sign-in__icon_password svg"></label>
+      {{{Input
+        name="password"
+        type="password"
+        class="sign-in__input input"
+        autocomplete="current-password"
+        onFocus=onFocus
+        onBlur=onBlur
+      }}}
+    </div>
+  </form>
+
+  {{{Link
+    href="chat"
+    class="sign-in__link button-link"
+    text="Войти"
+    onClick=signIn
+  }}}
+  {{{Link
+    href="sign-up"
+    class="sign-in__link button-link"
+    text="Зарегистрироваться"
+    onClick=signUp
+  }}}
+</div>

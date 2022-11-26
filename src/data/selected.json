@@ -1,18 +1,18 @@
 [
-	{
-		"online": false,
-		"avatarSrc": "../assets/images/avatars/alyona.png"
-	},
-	{
-		"online": false,
-		"avatarSrc": "../assets/images/avatars/pavel.png"
-	},
-	{
-		"online": false,
-		"avatarSrc": "../assets/images/avatars/lidia.png"
-	},
-	{
-		"online": true,
-		"avatarSrc": "../assets/images/avatars/sergei.png"
-	}
+  {
+    "online": false,
+    "imgSrc": "../assets/images/avatars/alyona.png"
+  },
+  {
+    "online": false,
+    "imgSrc": "../assets/images/avatars/pavel.png"
+  },
+  {
+    "online": false,
+    "imgSrc": "../assets/images/avatars/lidia.png"
+  },
+  {
+    "online": true,
+    "imgSrc": "../assets/images/avatars/sergei.png"
+  }
 ]

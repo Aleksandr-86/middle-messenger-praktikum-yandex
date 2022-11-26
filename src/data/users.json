@@ -1,7 +1,7 @@
-{
-  "0001": {
+[
+  {
     "online": false,
-    "avatarSrc": "../assets/images/avatars/lidia.png",
+    "imgSrc": "../static/images/avatars/lidia.png",
     "displayName": "Лидия Дмитриева",
     "activeTime": "12:10",
     "receivedMessages": 0,
@@ -58,76 +58,76 @@
       }
     ]
   },
-  "0002": {
+  {
     "online": true,
-    "avatarSrc": "../assets/images/avatars/sergei.png",
+    "imgSrc": "../static/images/avatars/sergei.png",
     "displayName": "Сергей Чехин (ТН)",
     "activeTime": "недавно",
     "receivedMessages": 0,
     "lastMessage": "< Устранили ещё вчера. Можно закрывать."
   },
-  "0003": {
+  {
     "online": false,
-    "avatarSrc": "../assets/images/avatars/oleg.png",
+    "imgSrc": "../static/images/avatars/oleg.png",
     "displayName": "Олег Н.",
     "activeTime": "недавно",
     "receivedMessages": 0,
     "lastMessage": "> В выходные скорее всего."
   },
-  "0004": {
+  {
     "online": false,
-    "avatarSrc": "../assets/images/avatars/pavel.png",
+    "imgSrc": "../static/images/avatars/pavel.png",
     "displayName": "Павел Беркут",
     "activeTime": "08 сент.",
     "receivedMessages": 0,
     "lastMessage": "< ... неплохо. Я кстати там не был, но планирую побывать там если ..."
   },
-  "0005": {
+  {
     "online": true,
-    "avatarSrc": "../assets/images/avatars/nadezda.png",
+    "imgSrc": "../static/images/avatars/nadezda.png",
     "displayName": "Надежда (Москва)",
     "activeTime": "Вт.",
     "receivedMessages": 0,
     "lastMessage": ""
   },
-  "0006": {
+  {
     "online": false,
-    "avatarSrc": "",
+    "imgSrc": "./static/images/avatars/nadezda.png",
     "displayName": "Дмитрий",
     "activeTime": "11 сент.",
     "receivedMessages": 5,
     "lastMessage": "> Привет. Отгрузка в среду. Накладные в твоей почте."
   },
-  "0007": {
+  {
     "online": false,
-    "avatarSrc": "../assets/images/avatars/alyona.png",
+    "imgSrc": "../static/images/avatars/alyona.png",
     "displayName": "Алёна Морозова",
     "activeTime": "недавно",
     "receivedMessages": 0,
     "lastMessage": "< У меня аллергия. Так что мне не вариант 😬 А вообще было бы..."
   },
-  "0008": {
+  {
     "online": false,
-    "avatarSrc": "../assets/images/avatars/kseniya.png",
+    "imgSrc": "../static/images/avatars/kseniya.png",
     "displayName": "Ксения Евсеева",
     "activeTime": "07:34",
     "receivedMessages": 0,
     "lastMessage": "> 😌"
   },
-  "0009": {
+  {
     "online": true,
-    "avatarSrc": "",
+    "imgSrc": "",
     "displayName": "Мария Жукова",
     "activeTime": "недавно",
     "receivedMessages": 0,
     "lastMessage": "< См. приложение."
   },
-  "0010": {
+  {
     "online": false,
-    "avatarSrc": "",
+    "imgSrc": "",
     "displayName": "Виктор Воробьёв",
     "activeTime": "12 авг.",
     "receivedMessages": 0,
     "lastMessage": "> Лады))"
   }
-}
+]
