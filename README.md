@@ -25,7 +25,7 @@
 ```
 
 <details>
-<summary>**Дополнительная информация**</summary>
+<summary>Дополнительная информация</summary>
   
 **Развёртывание на Heroku через WSL2 - Windows Subsystem for Linux**  
 **(далее по тексту - подсистема)**  
