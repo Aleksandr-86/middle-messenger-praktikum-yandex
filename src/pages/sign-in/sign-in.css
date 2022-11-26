@@ -1,4 +1,4 @@
-@import '../../styles/variables.css';
+@import "../../styles/variables.css";
 
 .sign-in {
   display: flex;
@@ -24,7 +24,7 @@
     width: 400px;
     margin-top: -6px;
     font-size: $description_font-size;
-    color: hsl(0, 70%, 50%);
+    color: hsl(0deg 70% 50%);
   }
 
   &__form {
@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
     border-top: 2px solid $line_color;
     border-bottom: 2px solid $line_color;
   }
@@ -57,10 +57,10 @@
   }
 
   &__icon_user {
-    background-image: url('../../assets/images/icons/user.svg');
+    background-image: url("../../assets/images/icons/user.svg");
   }
 
   &__icon_password {
-    background-image: url('../../assets/images/icons/lock.svg');
+    background-image: url("../../assets/images/icons/lock.svg");
   }
 }

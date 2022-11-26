@@ -10,3 +10,5 @@ export function renderDOM(block: Block) {
   root.innerHTML = '';
   root.appendChild(block.getContent());
 }
+
+// Тест повторной настройки husky

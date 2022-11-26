@@ -10,6 +10,7 @@ export function validate(name: string, str: string): string {
 
     if (str.length === 0) {
       return `поле "${name1}" не должно быть пустым`;
+      // eslint-disable-next-line
     } else if (/([^А-ЯЁA-Z\-])/gi.test(str)) {
       if (name === 'first_name') {
         return 'имя должно состоять из кириллических или латинских букв';
@@ -43,11 +44,13 @@ export function validate(name: string, str: string): string {
   } else if (name === 'email') {
     if (str.length === 0) {
       return 'адрес электронной почты не должен быть пустым';
+      // eslint-disable-next-line
     } else if (/[^A-Z0-9@\-_\.]/gi.test(str)) {
       return (
         'адрес электронной почты должен состоять из латинских букв, ' +
         'может содержать цифры, дефис или нижнее подчёркивание'
       );
+      // eslint-disable-next-line
     } else if (!/\@/gi.test(str)) {
       return 'адрес электронной почты должен содержать символ @';
     } else if (!/\./gi.test(str)) {

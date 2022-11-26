@@ -1,4 +1,4 @@
-@import '../../styles/variables.css';
+@import "../../styles/variables.css";
 
 .error {
   display: flex;
@@ -28,6 +28,6 @@
   }
 
   &__link {
-    color: hsl(180, 55%, 45%);
+    color: hsl(180deg 55% 45%);
   }
 }

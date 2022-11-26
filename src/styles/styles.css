@@ -1,11 +1,13 @@
 /* Переменные */
-@import './variables.css';
+@import "./variables.css";
 
-/* Шрифт ParaType (http://www.paratype.com)*/
+/* Шрифт ParaType (http://www.paratype.com) */
 @font-face {
-  font-family: 'GolosTextWebRegular';
-  src: url('../assets/fonts/Golos-Text_Regular.woff2') format('woff2'),
-    url('../assets/fonts/Golos-Text_Regular.woff') format('woff');
+  /* stylelint-disable-next-line */
+  font-family: GolosTextWebRegular;
+  /* stylelint-disable-next-line */
+  src: url("../assets/fonts/Golos-Text_Regular.woff2") format("woff2"),
+    url("../assets/fonts/Golos-Text_Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +19,8 @@
 }
 
 body {
-  font-family: 'GolosTextWebRegular';
+  /* stylelint-disable-next-line */
+  font-family: GolosTextWebRegular;
 }
 
 .main {

@@ -1,6 +1,6 @@
 declare module '*.hbs';
-declare module '*handlebars.runtime';
 declare module '*.svg';
+declare module '*handlebars.runtime';
 
 interface User {
   id: number | null;

@@ -1,9 +1,10 @@
-@import '../../../styles/variables.css';
+@import "../../../styles/variables.css";
 
 .input {
   height: 50px;
-  padding: 0px 15px 0px 15px;
-  font-family: 'GolosTextWebRegular';
+  padding: 0 15px;
+  /* stylelint-disable-next-line */
+  font-family: GolosTextWebRegular;
   font-size: $text_font-size;
   color: $input_color;
   background: $input_background;
@@ -12,12 +13,12 @@
   box-shadow: $input_box-shadow;
 
   &::selection {
-    background: hsl(303, 50%, 70%);
-    color: hsl(303, 10%, 15%);
+    background: hsl(303deg 50% 70%);
+    color: hsl(303deg 10% 15%);
   }
 
   &:focus {
-    outline: 1px solid hsl(303, 80%, 40%);
+    outline: 1px solid hsl(303deg 80% 40%);
   }
 
   &__warning {
