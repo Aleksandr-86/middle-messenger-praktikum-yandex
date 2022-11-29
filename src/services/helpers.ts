@@ -163,3 +163,78 @@ export function getMessageTime(time: string): string {
     minute: '2-digit'
   });
 }
+
+/**
+ * Получает объект с ключами в змеиной нотации,
+ * возвращает объект с ключами в верблюжьей нотации.
+ * Обрабатывает в том числе вложенные значения-объекты.
+ */
+export function fromSnakeToCamelCase(income: Record<string, unknown>) {
+  const outcomeObj: Record<string, unknown> = {};
+
+  Object.entries(income).forEach(([key, value]) => {
+    if (key.includes('_')) {
+      const tempArr = key.split('_');
+      let camelCaseKey = tempArr[0];
+
+      for (let i = 1; i < tempArr.length; i++) {
+        const keyPart = tempArr[i];
+        camelCaseKey += keyPart[0].toUpperCase() + keyPart.slice(1);
+      }
+
+      if (isPlainObject(value)) {
+        const tempObj = fromSnakeToCamelCase(value);
+        outcomeObj[camelCaseKey] = tempObj;
+      } else {
+        outcomeObj[camelCaseKey] = value;
+      }
+    } else {
+      if (isPlainObject(value)) {
+        const tempObj = fromSnakeToCamelCase(value);
+        outcomeObj[key] = tempObj;
+      } else {
+        outcomeObj[key] = value;
+      }
+    }
+  });
+
+  return outcomeObj;
+}
+
+/**
+ * Получает объект с ключами в верблюжьей нотации,
+ * возвращает объект с ключами в змеиной нотации.
+ * Обрабатывает в том числе вложенные значения-объекты.
+ */
+export function fromCamelToSnakeCase(income: Record<string, unknown>) {
+  const outcomeObj: Record<string, unknown> = {};
+
+  Object.entries(income).forEach(([key, value]) => {
+    const tempArr = key.split(/(?=[A-Z])/).map(s => s.toLowerCase());
+
+    if (tempArr.length > 0) {
+      let snakeCaseKey = tempArr[0];
+
+      for (let i = 1; i < tempArr.length; i++) {
+        snakeCaseKey += '_' + tempArr[i];
+      }
+
+      if (isPlainObject(value)) {
+        const tempObj = fromCamelToSnakeCase(value);
+        outcomeObj[snakeCaseKey] = tempObj;
+      } else {
+        outcomeObj[snakeCaseKey] = value;
+      }
+    } else {
+      outcomeObj[key] = value;
+      if (isPlainObject(value)) {
+        const tempObj = fromCamelToSnakeCase(value);
+        outcomeObj[key] = tempObj;
+      } else {
+        outcomeObj[key] = value;
+      }
+    }
+  });
+
+  return outcomeObj;
+}

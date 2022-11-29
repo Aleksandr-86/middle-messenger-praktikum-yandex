@@ -1,7 +1,7 @@
 import { chatAPI } from 'api/ChatAPI';
 import { router } from 'core/Router';
 import { store } from 'core/Store';
-import { getChatCardDate } from 'services/helpers';
+import { fromCamelToSnakeCase, fromSnakeToCamelCase, getChatCardDate } from 'services/helpers';
 import { userController } from './UserController';
 import { messagesController } from './MessageController';
 
@@ -25,6 +25,13 @@ class ChatController {
            * Модификация и сохранение в хранилище массива с объектами-чатами,
            * полученными с сервера
            */
+          console.log(JSON.parse(xhr.response)[0]);
+          const x = fromSnakeToCamelCase(JSON.parse(xhr.response)[0])
+          console.warn(x);
+          console.error(fromCamelToSnakeCase(x));
+          
+          
+
           const chats: Chat[] = [];
 
           const respObjArr = JSON.parse(xhr.response);
