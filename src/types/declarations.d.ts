@@ -3,10 +3,10 @@ declare module '*.svg';
 declare module '*handlebars.runtime';
 
 interface User {
-  id: number | null;
-  first_name: string;
-  second_name: string;
-  display_name: string;
+  id: null | number;
+  firstName: string;
+  secondName: string;
+  displayName: string;
   login: string;
   avatar: string;
   email: string;
@@ -16,36 +16,46 @@ interface User {
 interface Chat {
   id: number;
   title: string;
-  avatar: string | null;
-  unread_count: number;
-  last_message: string | null;
-  time: string | null;
+  avatar: null | string;
+  unreadCount: number;
+  lastMessage: null | {
+    user: {
+      firstName: string;
+      secondName: string;
+      avatar: string;
+      email: string;
+      login: string;
+      phone: string;
+    };
+    time: string;
+    content: string;
+  };
 }
 
 interface Message {
-  chat_id: number;
+  chatId: number;
   time: string;
   type: string;
-  user_id: string;
+  userId: string;
   content: string;
-  file?: {
+  file?: null | {
     id: number;
-    user_id: number;
+    userId: number;
     path: string;
     filename: string;
-    content_type: string;
-    content_size: number;
-    upload_date: string;
+    contentType: string;
+    contentSize: number;
+    uploadDate: string;
   };
 }
 
 interface ChatUser {
   id: number;
-  first_name: string;
-  second_name: string;
-  display_name: string | null;
+  firstName: string;
+  secondName: string;
+  displayName: null | string;
   login: string;
-  avatar: string | null;
+  avatar: string;
   email: string;
   phone: string;
   role: string;
@@ -62,8 +72,8 @@ interface AppState {
   user: User;
 
   chats: Chat[];
-  chatId: number | null;
-  token: number | null;
+  chatId: null | number;
+  token: null | number;
   messages: Message[];
   chatUsers: ChatUser[];
 }

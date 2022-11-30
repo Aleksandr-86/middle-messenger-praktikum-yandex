@@ -1,3 +1,4 @@
+import { fromSnakeToCamelCase } from 'services/helpers';
 import { chatController } from './ChatController';
 import { authAPI } from 'api/AuthAPI';
 import { initRouter, router } from 'core/Router';
@@ -63,7 +64,7 @@ class AuthController {
 
         if (code === 200) {
           store.set('isAuth', true);
-          store.set('user', JSON.parse(xhr.response));
+          store.set('user', fromSnakeToCamelCase(JSON.parse(xhr.response)));
         } else if (code === 401) {
           store.set('isAuth', false);
 

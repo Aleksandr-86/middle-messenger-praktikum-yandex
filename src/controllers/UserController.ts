@@ -1,3 +1,4 @@
+import { fromSnakeToCamelCase } from 'services/helpers';
 import { userAPI } from 'api/UserAPI';
 import { store } from 'core/Store';
 import { router } from 'core/Router';
@@ -13,7 +14,7 @@ class UserController {
         const code = xhr.status;
 
         if (code === 200) {
-          store.set('user', JSON.parse(xhr.response));
+          store.set('user', fromSnakeToCamelCase(JSON.parse(xhr.response)));
           store.set('modal.first', true);
         } else if (code === 400) {
           const warningDiv = document.body.querySelector('.warning');
@@ -39,7 +40,7 @@ class UserController {
         const code = xhr.status;
 
         if (code === 200) {
-          store.set('user', JSON.parse(xhr.response));
+          store.set('user', fromSnakeToCamelCase(JSON.parse(xhr.response)));
           store.set('modal.second', false);
         } else if (code === 401) {
           store.set('isAuth', false);

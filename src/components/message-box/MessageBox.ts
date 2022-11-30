@@ -4,7 +4,7 @@ import { Block } from 'core/Block';
 import { store } from 'core/Store';
 
 interface Props {
-  user_id: number;
+  userId: number;
   taken: boolean;
   time: string;
   content: string[];
@@ -16,7 +16,7 @@ export class MessageBox extends Block {
   constructor(props: Props) {
     super({
       ...props,
-      taken: props.user_id !== store.get().user.id
+      taken: props.userId !== store.get().user.id
     });
   }
 

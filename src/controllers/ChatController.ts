@@ -1,7 +1,7 @@
 import { chatAPI } from 'api/ChatAPI';
 import { router } from 'core/Router';
 import { store } from 'core/Store';
-import { fromCamelToSnakeCase, fromSnakeToCamelCase, getChatCardDate } from 'services/helpers';
+import { fromSnakeToCamelCase, getChatCardDate } from 'services/helpers';
 import { userController } from './UserController';
 import { messagesController } from './MessageController';
 
@@ -25,34 +25,18 @@ class ChatController {
            * Модификация и сохранение в хранилище массива с объектами-чатами,
            * полученными с сервера
            */
-          console.log(JSON.parse(xhr.response)[0]);
-          const x = fromSnakeToCamelCase(JSON.parse(xhr.response)[0])
-          console.warn(x);
-          console.error(fromCamelToSnakeCase(x));
-          
-          
-
           const chats: Chat[] = [];
-
           const respObjArr = JSON.parse(xhr.response);
-          for (const element of respObjArr) {
-            let lastMessage = null;
-            let time = null;
 
-            if (element.last_message) {
-              lastMessage = element.last_message.content;
-              time = getChatCardDate(element.last_message.time);
+          respObjArr.forEach((chat: Chat) => {
+            chat = fromSnakeToCamelCase(chat);
+
+            if (chat.lastMessage) {
+              chat.lastMessage.time = getChatCardDate(chat.lastMessage.time);
             }
 
-            chats.push({
-              id: element.id,
-              title: element.title,
-              avatar: element.avatar,
-              unread_count: element.unread_count,
-              last_message: lastMessage,
-              time: time
-            });
-          }
+            chats.push(chat);
+          });
 
           store.set('chats', chats);
         } else if (code === 401) {

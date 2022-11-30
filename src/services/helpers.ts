@@ -169,8 +169,8 @@ export function getMessageTime(time: string): string {
  * возвращает объект с ключами в верблюжьей нотации.
  * Обрабатывает в том числе вложенные значения-объекты.
  */
-export function fromSnakeToCamelCase(income: Record<string, unknown>) {
-  const outcomeObj: Record<string, unknown> = {};
+export function fromSnakeToCamelCase(income: any) {
+  const outcomeObj: any = {};
 
   Object.entries(income).forEach(([key, value]) => {
     if (key.includes('_')) {
@@ -206,8 +206,8 @@ export function fromSnakeToCamelCase(income: Record<string, unknown>) {
  * возвращает объект с ключами в змеиной нотации.
  * Обрабатывает в том числе вложенные значения-объекты.
  */
-export function fromCamelToSnakeCase(income: Record<string, unknown>) {
-  const outcomeObj: Record<string, unknown> = {};
+export function fromCamelToSnakeCase(income: any) {
+  const outcomeObj: any = {};
 
   Object.entries(income).forEach(([key, value]) => {
     const tempArr = key.split(/(?=[A-Z])/).map(s => s.toLowerCase());

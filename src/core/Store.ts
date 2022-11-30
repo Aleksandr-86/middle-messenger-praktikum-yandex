@@ -3,9 +3,9 @@ import { set } from '../services/helpers';
 
 const user: User = {
   id: null,
-  first_name: '',
-  second_name: '',
-  display_name: '',
+  firstName: '',
+  secondName: '',
+  displayName: '',
   login: '',
   avatar: '',
   email: '',
