@@ -3,13 +3,7 @@
   "preset": "ts-jest",
 
   "transform": {
-    "^.+\\.ts?$": [
-      "ts-jest",
-      {
-        "isolatedModules": true
-      }
-    ],
-
+    "^.+\\.ts?$": ["ts-jest"],
     "^.+\\.hbs$": "<rootDir>/node_modules/handlebars-jest",
     "^.+\\.svg$": "<rootDir>/transformers/svgTransformer.js"
   },
