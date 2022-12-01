@@ -192,7 +192,7 @@ export class Block<Props extends Record<string, any> = any> {
         return;
       }
 
-      const stubChildren = stub.childNodes.length ? stub.childNodes : [];
+      const stubChildren: any = stub.childNodes.length ? stub.childNodes : [];
 
       // Заменяет заглушку на component._element
       const content = component.getContent();

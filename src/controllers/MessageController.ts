@@ -90,17 +90,18 @@ class MessagesController {
 
         const messages: Message[] = [];
 
-        serverMessage
-          .reverse()
-          .forEach((message: Message) =>
-            messages.push(fromSnakeToCamelCase(message))
-          );
+        serverMessage.reverse().forEach((message: Message) => {
+          messages.push(fromSnakeToCamelCase(message));
+        });
 
         store.set('messages', messages);
       } else {
-        // if (serverMessage.type === 'user connected') {
+        if (serverMessage.type === 'user connected') {
+          return;
+        }
+
         serverMessage.time = getMessageTime(serverMessage.time);
-        store.pushMessage(serverMessage);
+        store.pushMessage(fromSnakeToCamelCase(serverMessage));
         chatController.getChats();
       }
     }

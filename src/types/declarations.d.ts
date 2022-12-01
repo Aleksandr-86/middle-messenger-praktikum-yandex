@@ -3,7 +3,7 @@ declare module '*.svg';
 declare module '*handlebars.runtime';
 
 interface User {
-  id: null | number;
+  id: number | null;
   firstName: string;
   secondName: string;
   displayName: string;
@@ -16,9 +16,9 @@ interface User {
 interface Chat {
   id: number;
   title: string;
-  avatar: null | string;
+  avatar: string | null;
   unreadCount: number;
-  lastMessage: null | {
+  lastMessage: {
     user: {
       firstName: string;
       secondName: string;
@@ -26,7 +26,7 @@ interface Chat {
       email: string;
       login: string;
       phone: string;
-    };
+    } | null;
     time: string;
     content: string;
   };
@@ -38,7 +38,7 @@ interface Message {
   type: string;
   userId: string;
   content: string;
-  file?: null | {
+  file?: {
     id: number;
     userId: number;
     path: string;
@@ -46,14 +46,14 @@ interface Message {
     contentType: string;
     contentSize: number;
     uploadDate: string;
-  };
+  } | null;
 }
 
 interface ChatUser {
   id: number;
   firstName: string;
   secondName: string;
-  displayName: null | string;
+  displayName: string | null;
   login: string;
   avatar: string;
   email: string;
@@ -72,8 +72,8 @@ interface AppState {
   user: User;
 
   chats: Chat[];
-  chatId: null | number;
-  token: null | number;
+  chatId: number | null;
+  token: number | null;
   messages: Message[];
   chatUsers: ChatUser[];
 }
