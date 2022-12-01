@@ -4,7 +4,7 @@
 
 **Ссылки**  
 [Прототип в Figma](https://www.figma.com/file/Q9deLsYNOyxQYDvkhhnaS4/Chat?node-id=10%3A2)  
-[Развёрнутый сайт в Netlify](https://chic-beijinho-596b6d.netlify.app)  
+[Развёрнутый сайт в Netlify](https://unrivaled-kelpie-bcfdba.netlify.app/)  
 [Развёрнутый образ на Heroku](https://young-badlands-33920.herokuapp.com)
 
 **Основные команды для работы с приложением**  
