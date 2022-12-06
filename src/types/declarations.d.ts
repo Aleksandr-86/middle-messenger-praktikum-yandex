@@ -76,4 +76,5 @@ interface AppState {
   token: number | null;
   messages: Message[];
   chatUsers: ChatUser[];
+  usersCards: Record<string, string>[];
 }

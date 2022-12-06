@@ -78,7 +78,7 @@ class UserController {
   // Поиск информации о пользователе по логину
   async searchUserByLogin(login: string) {
     return this._api.searchUserByLogin(login).then(xhr => {
-      return JSON.parse(xhr.response);
+      return fromSnakeToCamelCase(JSON.parse(xhr.response));
     });
   }
 }

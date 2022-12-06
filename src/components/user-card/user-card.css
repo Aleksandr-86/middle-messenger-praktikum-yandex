@@ -1,0 +1,44 @@
+@import "../../styles/variables.css";
+
+.user-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: $text_font-size;
+  color: $display-name_color;
+  background: $chat-card_background;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  box-shadow: $chat-card_box-shadow;
+  cursor: pointer;
+  gap: 10px;
+  transition: all 200ms linear;
+
+  &:active {
+    transform: scale(0.99);
+  }
+
+  &:hover {
+    border: 2px solid $chat-card_border-color;
+  }
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    transition: transform 200ms linear;
+  }
+
+  &__avatar:hover {
+    transform: scale(3);
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    background: red;
+  }
+}

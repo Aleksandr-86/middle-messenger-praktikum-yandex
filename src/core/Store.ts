@@ -26,7 +26,8 @@ export const appStateDefault: AppState = {
   chatId: null,
   token: null,
   messages: [],
-  chatUsers: []
+  chatUsers: [],
+  usersCards: []
 };
 
 export class Store extends EventBus {
