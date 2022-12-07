@@ -1,6 +1,6 @@
 import { PATH } from 'services/constants';
 import { store } from 'core/Store';
-import { getMessageTime } from 'services/helpers';
+import { getMessageTime, fromSnakeToCamelCase } from 'services/helpers';
 import { chatController } from './ChatController';
 
 class MessagesController {
@@ -87,11 +87,21 @@ class MessagesController {
         serverMessage.forEach(
           message => (message.time = getMessageTime(message.time))
         );
-        store.set('messages', serverMessage.reverse());
+
+        const messages: Message[] = [];
+
+        serverMessage.reverse().forEach((message: Message) => {
+          messages.push(fromSnakeToCamelCase(message));
+        });
+
+        store.set('messages', messages);
       } else {
-        // if (serverMessage.type === 'user connected') {
+        if (serverMessage.type === 'user connected') {
+          return;
+        }
+
         serverMessage.time = getMessageTime(serverMessage.time);
-        store.pushMessage(serverMessage);
+        store.pushMessage(fromSnakeToCamelCase(serverMessage));
         chatController.getChats();
       }
     }

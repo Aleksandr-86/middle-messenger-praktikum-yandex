@@ -8,8 +8,8 @@ import { chatController } from 'controllers/ChatController';
 interface Props {
   id: string;
   title: string;
-  unread_count: string;
-  last_message: string;
+  unreadCount: string;
+  lastMessage: string;
   time: string;
   onClick: () => void;
 }

@@ -3,6 +3,7 @@ import fn from './sign-up.hbs';
 import { ValidatedInputs } from 'core/ValidatedInputs';
 import { router } from 'core/Router';
 import { authController } from 'controllers/AuthController';
+import { fromCamelToSnakeCase } from 'services/helpers';
 
 export class SignUpPage extends ValidatedInputs {
   private _signUp(e: Event) {
@@ -17,7 +18,7 @@ export class SignUpPage extends ValidatedInputs {
     }
 
     if (result) {
-      authController.signUp(result);
+      authController.signUp(fromCamelToSnakeCase(result));
     }
   }
 

@@ -57,9 +57,9 @@ export class ProfilePage extends ValidatedInputs {
   render() {
     return this.compile(fn, {
       login: store.get().user.login,
-      first_name: store.get().user.first_name,
-      second_name: store.get().user.second_name,
-      display_name: store.get().user.display_name,
+      firstName: store.get().user.firstName,
+      secondName: store.get().user.secondName,
+      displayName: store.get().user.displayName,
       phone: store.get().user.phone,
       email: store.get().user.email,
       modal: store.get().modal,

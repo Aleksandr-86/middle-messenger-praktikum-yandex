@@ -4,9 +4,9 @@ declare module '*handlebars.runtime';
 
 interface User {
   id: number | null;
-  first_name: string;
-  second_name: string;
-  display_name: string;
+  firstName: string;
+  secondName: string;
+  displayName: string;
   login: string;
   avatar: string;
   email: string;
@@ -17,35 +17,45 @@ interface Chat {
   id: number;
   title: string;
   avatar: string | null;
-  unread_count: number;
-  last_message: string | null;
-  time: string | null;
+  unreadCount: number;
+  lastMessage: {
+    user: {
+      firstName: string;
+      secondName: string;
+      avatar: string;
+      email: string;
+      login: string;
+      phone: string;
+    } | null;
+    time: string;
+    content: string;
+  };
 }
 
 interface Message {
-  chat_id: number;
+  chatId: number;
   time: string;
   type: string;
-  user_id: string;
+  userId: string;
   content: string;
   file?: {
     id: number;
-    user_id: number;
+    userId: number;
     path: string;
     filename: string;
-    content_type: string;
-    content_size: number;
-    upload_date: string;
-  };
+    contentType: string;
+    contentSize: number;
+    uploadDate: string;
+  } | null;
 }
 
 interface ChatUser {
   id: number;
-  first_name: string;
-  second_name: string;
-  display_name: string | null;
+  firstName: string;
+  secondName: string;
+  displayName: string | null;
   login: string;
-  avatar: string | null;
+  avatar: string;
   email: string;
   phone: string;
   role: string;
@@ -66,4 +76,5 @@ interface AppState {
   token: number | null;
   messages: Message[];
   chatUsers: ChatUser[];
+  usersCards: Record<string, string>[];
 }

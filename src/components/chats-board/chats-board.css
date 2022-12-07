@@ -77,8 +77,10 @@
   }
 
   &__modal_users {
+    padding-top: 48px;
     width: 420px;
-    height: 170px;
+    height: fit-content;
+    transition: all 0.5s linear;
   }
 
   &__modal-wrapper {

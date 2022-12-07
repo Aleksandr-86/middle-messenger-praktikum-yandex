@@ -5,6 +5,7 @@ import { router } from 'core/Router';
 import { store } from 'core/Store';
 import { authController } from 'controllers/AuthController';
 import { chatController } from 'controllers/ChatController';
+import { userController } from 'controllers/UserController';
 
 export class ChatsBoard extends Block {
   static componentName = 'ChatsBoard';
@@ -12,11 +13,13 @@ export class ChatsBoard extends Block {
   constructor() {
     super({
       chatCards: store.get().chats,
+      usersCards: store.get().usersCards,
+
       openModalAddChat: () => this._openModalAddChat(),
       createChat: (e: Event) => this._createChat(e),
 
       openModalAddUserToChat: () => this._openModalAddUserToChat(),
-      addUserToChat: (e: Event) => this._addUserToChat(e),
+      addUserToChat: (e: Event) => this._addUsersToModal(e),
 
       openModalDelUserFromChat: () => this._openModalDelUserFromChat(),
       delUserFromChat: (e: Event) => this._delUserFromChat(e),
@@ -29,6 +32,7 @@ export class ChatsBoard extends Block {
     store.on('changed', () => {
       this.setProps({
         chatCards: store.get().chats,
+        usersCards: store.get().usersCards,
         modal: store.get().modal
       });
     });
@@ -48,7 +52,7 @@ export class ChatsBoard extends Block {
     store.set('modal.third', true);
   }
 
-  private _addUserToChat(e: Event) {
+  private async _addUsersToModal(e: Event) {
     e.preventDefault();
 
     const form = e.target as HTMLFormElement;
@@ -56,7 +60,14 @@ export class ChatsBoard extends Block {
     const inputValue = input.value;
 
     if (inputValue !== '') {
-      chatController.addUsersToChat(inputValue);
+      let users: User[] = [];
+      try {
+        users = await userController.searchUserByLogin(inputValue);
+      } catch (error: unknown) {
+        console.error(error);
+      }
+
+      store.set('usersCards', users);
     }
   }
 

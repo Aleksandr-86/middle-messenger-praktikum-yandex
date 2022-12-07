@@ -3,9 +3,9 @@ import { set } from '../services/helpers';
 
 const user: User = {
   id: null,
-  first_name: '',
-  second_name: '',
-  display_name: '',
+  firstName: '',
+  secondName: '',
+  displayName: '',
   login: '',
   avatar: '',
   email: '',
@@ -26,7 +26,8 @@ export const appStateDefault: AppState = {
   chatId: null,
   token: null,
   messages: [],
-  chatUsers: []
+  chatUsers: [],
+  usersCards: []
 };
 
 export class Store extends EventBus {

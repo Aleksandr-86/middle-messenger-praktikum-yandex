@@ -1,8 +1,7 @@
 import { chatAPI } from 'api/ChatAPI';
 import { router } from 'core/Router';
 import { store } from 'core/Store';
-import { getChatCardDate } from 'services/helpers';
-import { userController } from './UserController';
+import { fromSnakeToCamelCase, getChatCardDate } from 'services/helpers';
 import { messagesController } from './MessageController';
 
 class ChatController {
@@ -26,26 +25,17 @@ class ChatController {
            * полученными с сервера
            */
           const chats: Chat[] = [];
-
           const respObjArr = JSON.parse(xhr.response);
-          for (const element of respObjArr) {
-            let lastMessage = null;
-            let time = null;
 
-            if (element.last_message) {
-              lastMessage = element.last_message.content;
-              time = getChatCardDate(element.last_message.time);
+          respObjArr.forEach((chat: Chat) => {
+            chat = fromSnakeToCamelCase(chat);
+
+            if (chat.lastMessage) {
+              chat.lastMessage.time = getChatCardDate(chat.lastMessage.time);
             }
 
-            chats.push({
-              id: element.id,
-              title: element.title,
-              avatar: element.avatar,
-              unread_count: element.unread_count,
-              last_message: lastMessage,
-              time: time
-            });
-          }
+            chats.push(chat);
+          });
 
           store.set('chats', chats);
         } else if (code === 401) {
@@ -171,7 +161,7 @@ class ChatController {
   }
 
   // Добавление пользователей к чату
-  async addUsersToChat(login: string) {
+  async addUsersToChat(usersIds: number[]) {
     const chatId = store.get().chatId;
 
     if (!chatId) {
@@ -179,26 +169,8 @@ class ChatController {
       return;
     }
 
-    let users: User[] = [];
-    try {
-      users = await userController.searchUserByLogin(login);
-    } catch (error: unknown) {
-      console.error(error);
-    }
-
-    const firstFoundedUser: User = users[0];
-    /**
-     * Если запрашиваемый к поиску логин не совпадает
-     * с логином первого элемента возвращаемого массива пользователей
-     */
-    if (login !== firstFoundedUser.login) {
-      return;
-    }
-
-    const firstFoundedUserId = firstFoundedUser.id as number;
-
     await this._api
-      .addUsersToChat([firstFoundedUserId], chatId)
+      .addUsersToChat(usersIds, chatId)
       .then(xhr => {
         const code = xhr.status;
 

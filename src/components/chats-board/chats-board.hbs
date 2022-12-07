@@ -24,9 +24,9 @@
       {{{ChatCard
         id=id
         title=title
-        unread_count=unread_count
-        last_message=last_message
-        time=time
+        unreadCount=unreadCount
+        lastMessage=lastMessage.content
+        time=lastMessage.time
       }}}
     {{/each}}
   </div>
@@ -72,14 +72,24 @@
   }}
     {{#Form onSubmit=addUserToChat}}
       <div class="chats-board__modal-wrapper">
+
         {{{Input
           name="modal"
           type="text"
           class="chats-board__modal-input input"
           autocomplete="off"
-          placeholder="Точный логин пользователя"
+          placeholder="Логин пользователя"
         }}}
-        {{{Button type="submit" value="Добавить пользователя"}}}
+        {{#each usersCards}}
+          {{{UserCard
+            imgSrc=this.avatar
+            login=this.login
+            displayName=this.displayName
+            id=this.id
+          }}}
+        {{/each}}
+
+        {{!-- {{{Button type="submit" value="Добавить пользователя"}}} --}}
       </div>
     {{/Form}}
   {{/Modal}}
