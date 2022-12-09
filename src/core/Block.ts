@@ -198,7 +198,7 @@ export class Block<Props extends Record<string, any> = any> {
       const content = component.getContent();
       stub.replaceWith(content);
 
-      // Ищет блок с атрибутом 'data-slot="1"', для размещения дочерних элементов
+      // Ищет блок с атрибутом 'data-slot="1"', для размещения дочерних элементо
       const slotContent = content.querySelector('[data-slot="1"]');
 
       if (slotContent && stubChildren.length) {
