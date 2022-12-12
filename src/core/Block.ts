@@ -41,8 +41,8 @@ export class Block<Props extends Record<string, any> = any> {
   };
 
   /**
-   * Вспомогательная функция, проверяющая, факт нахождения элемента в DOM дереве.
-   * В том случае если его нет, инициирует срабатывание события COMPONENT_WILL_UNMOUNT
+   * Вспомогательная функция проверяющая факт наличия элемента в DOM дереве,
+   * инициирующая в случае его отсутствия срабатывание события COMPONENT_WILL_UNMOUNT.
    */
   private _checkInDom() {
     const elementInDOM = document.body.contains(this._element);
