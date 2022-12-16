@@ -6,7 +6,7 @@ import { router } from 'core/Router';
 class UserController {
   private _api: typeof userAPI = userAPI;
 
-  // Изменение информации о пользователе
+  // Изменяет информацию о пользователе
   profile(data: Record<string, string | number>): void {
     this._api
       .profile(data)
@@ -32,7 +32,7 @@ class UserController {
       .catch(error => console.error(error));
   }
 
-  // Изменение аватара пользователя
+  // Загружает аватар пользователя
   changeAvatar(data: FormData): void {
     this._api
       .changeAvatar(data)
@@ -52,7 +52,7 @@ class UserController {
       .catch(error => console.error(error));
   }
 
-  // Изменение пароля пользователя
+  // Изменяет пароль пользователя
   password(data: Record<string, string | number>): void {
     this._api
       .password(data)
@@ -75,7 +75,10 @@ class UserController {
       .catch(error => console.error(error));
   }
 
-  // Поиск информации о пользователе по логину
+  /**
+   * Принимает строку-логин. Возвращает объект
+   * с подробной информацией о пользователе
+   */
   async searchUserByLogin(login: string) {
     return this._api.searchUserByLogin(login).then(xhr => {
       return fromSnakeToCamelCase(JSON.parse(xhr.response));

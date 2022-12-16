@@ -38,7 +38,3 @@ export async function renderBlock(Block: BlockClass, props: any) {
 
   renderDOM(new Block({ ...props }));
 }
-
-export async function step(_name: string, callback: () => void) {
-  await callback();
-}

@@ -110,7 +110,6 @@ export abstract class ValidatedInputs extends Block {
       }
     }
 
-    // Все поля проверены, замечаний нет, warningFlag в положении false
     if (!warningFlag) {
       return data;
     } else {

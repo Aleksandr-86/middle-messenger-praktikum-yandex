@@ -3,7 +3,6 @@
 .input {
   height: 50px;
   padding: 0 15px;
-  /* stylelint-disable-next-line */
   font-family: GolosTextWebRegular;
   font-size: $text_font-size;
   color: $input_color;

@@ -1,4 +1,3 @@
-import { renderDOM } from 'core/renderDOM';
 // Общие стили
 import 'styles/styles.css';
 
@@ -38,11 +37,4 @@ registerComponent(UserCard);
 
 window.addEventListener('DOMContentLoaded', () => {
   authController.user();
-  // renderDOM(
-  //   new UserCard({
-  //     imgSrc: '/0a462a9f-f975-49b3-816a-374e15384e75/ca1f0719-e6b3-4b60-87ed-dfdd303e6392_alyona.png',
-  //     login: 'User222',
-  //     name: 'Аирыав'
-  //   })
-  // );
 });

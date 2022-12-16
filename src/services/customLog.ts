@@ -15,7 +15,6 @@ function markDuplicate(id: number): boolean {
 }
 
 export const customLog = function (...args: any[]): void {
-  // return;
   let mainStyle = '';
   let idStyle = '';
 

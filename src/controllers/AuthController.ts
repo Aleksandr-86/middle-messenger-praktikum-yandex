@@ -54,7 +54,7 @@ class AuthController {
       .catch(error => console.error(error));
   }
 
-  // Получение информации о пользователе
+  // Возвращает информацию о пользователе
   async user() {
     await this._api
       .user()

@@ -8,7 +8,7 @@ class ChatController {
   private _api: typeof chatAPI = chatAPI;
 
   /**
-   * Получение чатов текущего пользователя.
+   * Возвращает чаты текущего пользователя.
    * offset: сдвиг.
    * limit: количество возвращаемых элементов массива.
    * title: поиск по названию чата.
@@ -48,7 +48,7 @@ class ChatController {
       .catch(error => console.error(error));
   }
 
-  // Создание чата
+  // Создаёт чат
   async createChat() {
     const input = document.body.querySelector(
       '.chats-board__modal-input'
@@ -97,7 +97,7 @@ class ChatController {
     chatController.getChatUsers(chatId);
   }
 
-  // Удаление чата по идентификатору
+  // Удаляет чат по идентификатору
   async deleteChat() {
     const chatId = store.get().chatId;
 
@@ -126,7 +126,8 @@ class ChatController {
   }
 
   /**
-   * Получение чатов текущего пользователя.
+   * Возвращает массив объектов с подробной информацией
+   * о всех пользователях текущего чата.
    * chatId: идентификатор чата.
    * offset: сдвиг.
    * limit: количество возвращаемых элементов массива.
@@ -160,7 +161,7 @@ class ChatController {
       .catch(error => console.error(error));
   }
 
-  // Добавление пользователей к чату
+  // Добавляет пользователей к чату
   async addUsersToChat(usersIds: number[]) {
     const chatId = store.get().chatId;
 
@@ -189,7 +190,7 @@ class ChatController {
     this.getChats();
   }
 
-  // Удаление пользователей из чата
+  // Удаляет пользователей из чата
   async deleteUsersFromChat(login: string) {
     const chatId = store.get().chatId;
 
@@ -239,7 +240,7 @@ class ChatController {
     this.getChats();
   }
 
-  // Возвращает токен для подключения к серверу сообщений
+  // Возвращает токен необходимый для подключения к серверу сообщений
   async getToken(chatId: number) {
     return this._api.getToken(chatId).then(xhr => {
       return JSON.parse(xhr.response).token;

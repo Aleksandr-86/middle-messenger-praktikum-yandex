@@ -56,7 +56,7 @@ class MessagesController {
 
   private async _openHandler() {
     if (this._socket) {
-      // Получение непрочитанных сообщений
+      // Запрос непрочитанных сообщений
       try {
         await this._getMessages();
       } catch (error: unknown) {
