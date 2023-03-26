@@ -17,8 +17,7 @@
   </a>
   <a href="https://expressjs.com/">
     <img src="https://img.shields.io/badge/Express.js-4.18.1-blue?style=plastic&logo=express"/>
-  </a></br>
-  
+  </a>
   <a href="https://eslint.org/">
     <img src="https://img.shields.io/badge/ESLint-8.24.0-blue?style=plastic&logo=eslint"/>
   </a>
