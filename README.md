@@ -4,34 +4,35 @@
 
 <p align="center">
   <a href="https://handlebarsjs.com/">
-    <img height="24" src="https://img.shields.io/badge/Handlebars-4.7.7-blue?style=plastic&logo=handlebarsdotjs"/>
+    <img src="https://img.shields.io/badge/Handlebars-4.7.7-blue?style=plastic&logo=handlebarsdotjs"/>
   </a>
   <a href="https://postcss.org/">
-    <img height="24" src="https://img.shields.io/badge/PostCSS-8.4.16-blue?style=plastic&logo=postcss"/>
+    <img src="https://img.shields.io/badge/PostCSS-8.4.16-blue?style=plastic&logo=postcss"/>
   </a>
   <a href="https://jestjs.io/">
-    <img height="24" src="https://img.shields.io/badge/Jest-29.3.1-blue?style=plastic&logo=docker"/>
+    <img src="https://img.shields.io/badge/Jest-29.3.1-blue?style=plastic&logo=jest"/>
   </a>
-  <a href="">
-    <img height="24" src="https://img.shields.io/badge/WebSocket-blueviolet?style=plastic&logo=docker"/>
+  <a href="https://websockets.spec.whatwg.org/">
+    <img src="https://img.shields.io/badge/WebSocket-blueviolet?style=plastic"/>
   </a>
   <a href="https://expressjs.com/">
-    <img height="24" src="https://img.shields.io/badge/Express.js-4.18.1-blue?style=plastic&logo=docker"/>
-  </a>
+    <img src="https://img.shields.io/badge/Express.js-4.18.1-blue?style=plastic&logo=express"/>
+  </a></br>
+  
   <a href="https://eslint.org/">
-    <img height="24" src="https://img.shields.io/badge/ESLint-8.24.0-blue?style=plastic&logo=docker"/>
+    <img src="https://img.shields.io/badge/ESLint-8.24.0-blue?style=plastic&logo=eslint"/>
   </a>
   <a href="https://stylelint.io/">
-    <img height="24" src="https://img.shields.io/badge/Stylelint-14.13.0-blue?style=plastic&logo=docker"/>
+    <img src="https://img.shields.io/badge/Stylelint-14.13.0-blue?style=plastic&logo=stylelint"/>
   </a>
   <a href="https://webpack.js.org/">
-    <img height="24" src="https://img.shields.io/badge/Webpack-5.75.0-blue?style=plastic&logo=docker"/>
+    <img src="https://img.shields.io/badge/Webpack-5.75.0-blue?style=plastic&logo=webpack"/>
   </a>
   <a href="https://www.netlify.com/">
-    <img height="24" src="https://img.shields.io/badge/Netlify-46bcb9?style=plastic&logo=docker"/>
+    <img src="https://img.shields.io/badge/Netlify-gray?style=plastic&logo=netlify"/>
   </a>
-  <a href="https://www.netlify.com/">
-    <img height="24" src="https://img.shields.io/badge/Docker-4695ec?style=plastic&logo=docker"/>
+  <a href="https://www.docker.com/">
+    <img src="https://img.shields.io/badge/Docker-gray?style=plastic&logo=docker"/>
   </a>
 </p>
 
