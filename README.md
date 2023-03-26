@@ -1,6 +1,6 @@
-<h2 align="center">
+<h3 align="center">
 Веб приложение «Чат»
-</h1>
+</h3>
 
 <p align="center">
   <a href="https://handlebarsjs.com/">
