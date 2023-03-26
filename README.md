@@ -1,11 +1,43 @@
-# Веб приложение «Чат»
+<h2 align="center">
+Веб приложение «Чат»
+</h1>
 
-## реализованный в рамках курса Middle Frontend-разработчик От Яндекс Практикума
+<p align="center">
+  <a href="https://handlebarsjs.com/">
+    <img height="24" src="https://img.shields.io/badge/Handlebars-4.7.7-blue?style=plastic&logo=handlebarsdotjs"/>
+  </a>
+  <a href="https://postcss.org/">
+    <img height="24" src="https://img.shields.io/badge/PostCSS-8.4.16-blue?style=plastic&logo=postcss"/>
+  </a>
+  <a href="https://jestjs.io/">
+    <img height="24" src="https://img.shields.io/badge/Jest-29.3.1-blue?style=plastic&logo=docker"/>
+  </a>
+  <a href="">
+    <img height="24" src="https://img.shields.io/badge/WebSocket-blueviolet?style=plastic&logo=docker"/>
+  </a>
+  <a href="https://expressjs.com/">
+    <img height="24" src="https://img.shields.io/badge/Express.js-4.18.1-blue?style=plastic&logo=docker"/>
+  </a>
+  <a href="https://eslint.org/">
+    <img height="24" src="https://img.shields.io/badge/ESLint-8.24.0-blue?style=plastic&logo=docker"/>
+  </a>
+  <a href="https://stylelint.io/">
+    <img height="24" src="https://img.shields.io/badge/Stylelint-14.13.0-blue?style=plastic&logo=docker"/>
+  </a>
+  <a href="https://webpack.js.org/">
+    <img height="24" src="https://img.shields.io/badge/Webpack-5.75.0-blue?style=plastic&logo=docker"/>
+  </a>
+  <a href="https://www.netlify.com/">
+    <img height="24" src="https://img.shields.io/badge/Netlify-46bcb9?style=plastic&logo=docker"/>
+  </a>
+  <a href="https://www.netlify.com/">
+    <img height="24" src="https://img.shields.io/badge/Docker-4695ec?style=plastic&logo=docker"/>
+  </a>
+</p>
 
 **Ссылки**  
 [Прототип в Figma](https://www.figma.com/file/Q9deLsYNOyxQYDvkhhnaS4/Chat?node-id=10%3A2)  
 [Развёрнутый сайт в Netlify](https://unrivaled-kelpie-bcfdba.netlify.app/)  
-[Развёрнутый образ на Heroku](https://young-badlands-33920.herokuapp.com)
 
 **Основные команды для работы с приложением**  
 **npm run install** - установка необходимых пакетов  
