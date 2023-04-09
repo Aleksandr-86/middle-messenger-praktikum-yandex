@@ -1,5 +1,7 @@
 <h3 align="center">
-💬 Веб приложение «Чат»
+  <a href="https://unrivaled-kelpie-bcfdba.netlify.app/">
+    💬 Веб приложение «Чат»
+  </a>
 </h3>
 
 <p align="center">
